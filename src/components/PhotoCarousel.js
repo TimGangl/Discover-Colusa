@@ -2,8 +2,6 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 
 import { Container } from '@material-ui/core';
-
-import PhotoCard from './PhotoCard';
 import 'react-multi-carousel/lib/styles.css';
 
 const responsive = {
@@ -14,7 +12,7 @@ const responsive = {
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
-    items: 3,
+    items: 4,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -29,46 +27,160 @@ const responsive = {
 const PhotoCarousel = props => {
   return (
     <Container disableGutters>
-      <Carousel responsive={responsive}>
+      <h1>SHOP</h1>
+      <Carousel infinite={true} responsive={responsive}>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 1
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 1
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 2
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 2
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 3
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 3
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 4
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 4
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 5
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 6
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 7
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 8
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 9
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 10
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 11
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 12
         </div>
       </Carousel>
-      <Carousel responsive={responsive}>
+      <h1>DINE</h1>
+      <Carousel infinite={true} responsive={responsive}>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 1
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 1
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 2
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 2
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 3
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 3
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 4
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 4
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 5
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 6
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 7
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 8
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 9
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 10
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 11
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 12
         </div>
       </Carousel>
-      <Carousel responsive={responsive}>
+      <h1>PLAY</h1>
+      <Carousel infinite={true} responsive={responsive}>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 1
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 1
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 2
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 2
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 3
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 3
         </div>
         <div>
-          <img src='https://picsum.photos/400' alt='placeholder'></img>Item 4
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 4
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 5
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 6
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 7
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 8
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 9
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 10
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 11
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 12
+        </div>
+      </Carousel>
+      <h1>STAY</h1>
+      <Carousel infinite={true} responsive={responsive}>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 1
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 2
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 3
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 4
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 5
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 6
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 7
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 8
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 9
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 10
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 11
+        </div>
+        <div>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>Item 12
         </div>
       </Carousel>
       ;

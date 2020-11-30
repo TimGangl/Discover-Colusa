@@ -9,9 +9,9 @@ const styles = {
   videoHeader: {
     position: 'sticky',
     minWidth: '100%',
-    height: '25%',
+    height: '40%',
     overflow: 'hidden',
-    marginTop: '-60vh',
+    marginTop: '-20vh',
     marginLeft: 'none',
   },
 };

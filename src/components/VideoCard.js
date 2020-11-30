@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player/lazy';
-// import video from '../videos/hand-in-water.mov';
-import video from '../videos/lorem-video.mp4';
+import video from '../videos/hand-in-water.mp4';
 import { withStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
 
