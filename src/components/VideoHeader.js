@@ -3,15 +3,15 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
 
-import VideoCard from './VideoCard';
+import VideoCard from '../components/VideoCard/VideoCard';
 
 const styles = {
   videoHeader: {
     position: 'sticky',
     minWidth: '100%',
-    height: '40%',
+    height: '50%',
     overflow: 'hidden',
-    marginTop: '-20vh',
+    marginTop: '-18vh',
     marginLeft: 'none',
   },
 };
@@ -20,6 +20,7 @@ const VideoHeader = props => {
   const { classes } = props;
   return (
     <Container disableGutters className={classes.videoHeader}>
+      
       <VideoCard />
     </Container>
   );

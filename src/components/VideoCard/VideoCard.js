@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactPlayer from 'react-player/lazy';
-import video from '../videos/hand-in-water.mp4';
+import video from '../../videos/hand-in-water.mp4';
 import { withStyles } from '@material-ui/core/styles';
-import { Container } from '@material-ui/core';
+// import { Container } from '@material-ui/core';
+import '..//Navigation/Navigation.css';
+import './VideoCard.css';
 
 const styles = {
   root: {
@@ -16,6 +18,8 @@ const styles = {
 const VideoCard = props => {
   const { classes } = props;
   return (
+    <div className="row">
+      <div className="title col-12">Discover Colusa</div>
     <div className={classes.root}>
       <ReactPlayer
         className={classes.reactPlayer}
@@ -26,6 +30,7 @@ const VideoCard = props => {
         width='100%'
         height='100%'
       />
+    </div>
     </div>
   );
 };
