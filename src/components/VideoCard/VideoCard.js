@@ -9,18 +9,17 @@ import '../VideoCard/VideoCard.css';
 
 const styles = {
   root: {
-
     width: '100%',
+    heigth: '95%',
   },
   reactPlayer: {
     width: '100%',
-  }
+  },
 };
 
 const VideoCard = props => {
   const { classes } = props;
   return (
-      
     <div className={classes.root}>
       <ReactPlayer
         className={classes.reactPlayer}
@@ -29,7 +28,7 @@ const VideoCard = props => {
         loop
         muted
         width='100%'
-        height='100%'
+        height='50%'
       />
     </div>
   );
