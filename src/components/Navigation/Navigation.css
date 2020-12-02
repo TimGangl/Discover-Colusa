@@ -7,8 +7,9 @@
 .link{
   font-size: 1.7rem;
   color: white !important;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-decoration: none !important;
 }
 .info{
   margin: 4%;
