@@ -27,10 +27,11 @@ const responsive = {
 const PhotoCarousel = props => {
   return (
     <Container disableGutters>
+      <h1 className="info text-center">Here will be some text</h1>
       <h1 className="SDPS">SHOP</h1>
       <Carousel infinite={true} responsive={responsive}>
         <div>
-          <img src='https://picsum.photos/300/200' alt='placeholder'></img>
+          <a href="https://www.google.com/" target="_blank"><img src='https://picsum.photos/300/200' alt='placeholder'></img></a>
         </div>
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
