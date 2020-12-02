@@ -1,0 +1,16 @@
+.react-player-card {
+  width: 100vw;
+  margin-bottom: -15vh;
+}
+.card-img-overlay,
+.card-body {
+  padding: 0;
+}
+.card-title {
+  color: black;
+  height: 50%;
+  font-size: 8rem;
+}
+.reactPlayer {
+  width: 100%;
+}

@@ -1,17 +1,17 @@
 import React from 'react';
-import VideoHeader from './components/VideoHeader';
+// import VideoHeader from './components/VideoHeader';
 import PhotoCarousel from '../src/components/PhotoCarousel/PhotoCarousel';
-import './components/PhotoCarousel/PhotoCarousel.css'
+import './components/PhotoCarousel/PhotoCarousel.css';
 import Navigation from '../src/components/Navigation/Navigation';
-import './components/Navigation/Navigation.css'
+import './components/Navigation/Navigation.css';
+import VideoCard from './components/VideoCard/VideoCard';
 
 function App() {
   return (
     <div className='App justify-content-center'>
-      <VideoHeader />
+      <VideoCard />
       <Navigation />
       <PhotoCarousel />
-
     </div>
   );
 }
