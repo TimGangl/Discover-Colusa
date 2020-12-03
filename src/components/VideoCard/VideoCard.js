@@ -8,7 +8,7 @@ import '../VideoCard/VideoCard.css';
 
 const VideoCard = () => {
   return (
-    <Card className='react-player-card text-white h1'>
+    <Card fluid className='react-player-card text-white h1'>
       <Card.Body className='card-body'>
         <ReactPlayer
           className='reactPlayer'
@@ -16,12 +16,12 @@ const VideoCard = () => {
           playing
           loop
           muted
-          width='100%'
+          width='100'
           height='100%'
         />
       </Card.Body>
       <Card.ImgOverlay className='card-img-overlay'>
-        <Card.Title className='card-title'>Discover Colusa!</Card.Title>
+        <Card.Title className='card-title'>Discover Colusa</Card.Title>
         {/* <Card.Text></Card.Text>
         <Card.Text></Card.Text> */}
       </Card.ImgOverlay>

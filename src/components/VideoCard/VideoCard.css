@@ -1,10 +1,24 @@
 .react-player-card {
   width: 100vw;
-  margin-bottom: -15vh;
+  height: 100%;
+  margin-bottom: -3.25%;
+  padding-bottom: 0;
+  border: 0px;
+  margin-left: none;
+  overflow: hidden;
 }
-.card-img-overlay,
+.card-img-overlay {
+  padding: 10;
+  font-family: 'Dancing Script', cursive;
+  background: -webkit-linear-gradient(#b17d4a, #e4d9ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px #804f1f;
+}
 .card-body {
   padding: 0;
+  margin-top: -4%;
+  /* margin-bottom: -14; */
 }
 .card-title {
   color: black;
@@ -12,5 +26,4 @@
   font-size: 8rem;
 }
 .reactPlayer {
-  width: 100%;
 }
