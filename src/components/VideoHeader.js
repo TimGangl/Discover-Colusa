@@ -11,7 +11,7 @@ const styles = {
     minWidth: '100%',
     height: '50%',
     overflow: 'hidden',
-    marginTop: '-14vh',
+    marginTop: '-15.6vh',
     marginLeft: 'none',
   },
 };

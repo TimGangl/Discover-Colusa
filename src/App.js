@@ -13,7 +13,6 @@ function App() {
         <Route exact path={["/"]}>
           <Home />
         </Route>
-
         <Router exact path={["/events"]}>
           <Events />
         </Router>
