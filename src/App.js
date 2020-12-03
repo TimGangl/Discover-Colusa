@@ -1,18 +1,22 @@
 import React from 'react';
-// import VideoHeader from './components/VideoHeader';
-import PhotoCarousel from '../src/components/PhotoCarousel/PhotoCarousel';
-import './components/PhotoCarousel/PhotoCarousel.css';
-import Navigation from '../src/components/Navigation/Navigation';
-import './components/Navigation/Navigation.css';
-import VideoCard from './components/VideoCard/VideoCard';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Events from './pages/Events/Events';
 
 function App() {
   return (
-    <div className='App justify-content-center'>
-      <VideoCard />
-      <Navigation />
-      <PhotoCarousel />
-    </div>
+    <>
+      <Router>
+        <Switch>
+          <Route exact path={['/']}>
+            <Home />
+          </Route>
+          <Router exact path={['/events']}>
+            <Events />
+          </Router>
+        </Switch>
+      </Router>
+    </>
   );
 }
 
