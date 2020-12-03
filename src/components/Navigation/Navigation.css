@@ -1,16 +1,16 @@
-.navbar{
+.navbar {
   box-shadow: 0px -7px 4px 2px rgb(31, 29, 29);
   background-color: #d55023 !important;
-  background-image: linear-gradient(to top right, #d55023 , yellow);
+  background-image: linear-gradient(to top right, #d55023, yellow);
 }
 
-.link{
+.link {
   font-size: 1.7rem;
   color: white !important;
   margin-left: 8%;
   margin-right: 8%;
   text-decoration: none !important;
 }
-.info{
-  margin: 4%;
+.info {
+  margin-top: 4%;
 }
