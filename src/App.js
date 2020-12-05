@@ -8,12 +8,12 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path={['/']}>
+          <Route exact path={['/']} component={Home}>
             <Home />
           </Route>
-          <Router exact path={['/events']}>
+          <Route exact path={['/events']} component={Events}>
             <Events />
-          </Router>
+          </Route>
         </Switch>
       </Router>
     </>

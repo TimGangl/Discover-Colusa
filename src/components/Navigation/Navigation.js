@@ -14,30 +14,46 @@ function Navigation() {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='justify-content-center m-auto'>
+        <Nav.Link className="link">
           <Link className='link' to='/'>
             Home
           </Link>
-          <Link className='link' to='/history' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/history' disabled>
             History
           </Link>
-          <Link className='link' to='/art' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/art' disabled>
             Art
           </Link>
+          </Nav.Link>
+          <Nav.Link className="link">
           <Link className='link' to='/events'>
             Events
           </Link>
-          <Link className='link' to='/river' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/river' disabled>
             River
           </Link>
-          <Link className='link' to='/fishing' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/fishing' disabled>
             Fishing
           </Link>
-          <Link className='link' to='/hunting' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/hunting' disabled>
             Hunting
           </Link>
-          <Link className='link' to='/maps' eventKey='disabled' disabled>
+          </Nav.Link>
+          <Nav.Link className="link">
+          <Link className='link' to='/maps' disabled>
             Maps
           </Link>
+          </Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
