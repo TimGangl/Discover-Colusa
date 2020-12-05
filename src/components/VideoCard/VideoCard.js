@@ -10,6 +10,7 @@ const VideoCard = () => {
   return (
     <Card fluid className='react-player-card text-white h1'>
       <Card.Body className='card-body'>
+      
         <ReactPlayer
           className='reactPlayer'
           url={video}
@@ -26,7 +27,6 @@ const VideoCard = () => {
         <Card.Text></Card.Text> */}
       </Card.ImgOverlay>
     </Card>
-
     // <Card fluid className='videoOverlayCard'>
     //   <ReactPlayer
     //     className='reactPlayer'
