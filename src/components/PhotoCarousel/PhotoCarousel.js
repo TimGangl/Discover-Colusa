@@ -29,7 +29,7 @@ const PhotoCarousel = props => {
     <Container disableGutters>
       <h1 className="info text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id.</h1>
       <h1 className="SDPS">SHOP</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <Carousel infinite={true} responsive={responsive} autoPlay autoPlaySpeed={2000}>
         <div>
           <a href="https://www.google.com/" target="_blank"><img src='https://picsum.photos/300/200' alt='placeholder'></img></a>
         </div>
@@ -145,8 +145,8 @@ const PhotoCarousel = props => {
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
       </Carousel>
-      <h1 className="SDPS">STAY</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <h1 className="SDPS" id="stay">STAY</h1>
+      <Carousel infinite={true} responsive={responsive} >
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
