@@ -6,6 +6,7 @@
   border: 0px;
   margin-left: none;
   overflow: hidden;
+  border-radius: 0;
 }
 .card-img-overlay {
   padding: 10;

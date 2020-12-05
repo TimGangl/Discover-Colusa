@@ -11,9 +11,9 @@ function App() {
           <Route exact path={['/']}>
             <Home />
           </Route>
-          <Router exact path={['/events']}>
+          <Route exact path={['/events']}>
             <Events />
-          </Router>
+          </Route>
         </Switch>
       </Router>
     </>
