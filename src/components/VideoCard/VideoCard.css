@@ -10,10 +10,10 @@
 .card-img-overlay {
   padding: 10;
   font-family: 'Dancing Script', cursive;
-  background: -webkit-linear-gradient(#b17d4a, #e4d9ca);
+  background: -webkit-linear-gradient(#9ca04b, #e4d9ca);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 1px 1px #804f1f;
+  text-shadow: 2px 2px #2f7f7c;
 }
 .card-body {
   padding: 0;
@@ -24,6 +24,10 @@
   color: black;
   height: 50%;
   font-size: 8VW;
+}
+
+#stay-text{
+  text-shadow: 1px 1.3px #2f7f7c;
 }
 
 
