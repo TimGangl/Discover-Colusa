@@ -14,11 +14,12 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px #2f7f7c;
+  text-decoration: border 20px solid black !important;
 }
 .card-body {
   padding: 0;
   margin-top: -4%;
-  /* margin-bottom: -14; */
+  margin-bottom: -14;
 }
 .card-title {
   color: black;

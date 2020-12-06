@@ -5,10 +5,12 @@ import '../../pages/404UnderConstruction/404UnderConstruction.css';
 
 function UnderConstruction(){
 return(
-  <div>
+  <>
     <Navigation />
+    <div>
     <img className="img-fluid" src={photo} alt="under construction"></img>
-  </div>
+    </div>
+  </>
 
 )
 }
