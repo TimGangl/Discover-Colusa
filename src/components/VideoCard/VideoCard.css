@@ -10,7 +10,7 @@
 .card-img-overlay {
   padding: 10;
   font-family: 'Dancing Script', cursive;
-  background: -webkit-linear-gradient(#9ca04b, #e4d9ca);
+  background: -webkit-linear-gradient(#9ca04b,#e4d9ca);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 2px 2px #2f7f7c;
@@ -27,6 +27,7 @@
 }
 
 #stay-text{
+  font-size: 2.2vw;
   text-shadow: 1px 1.3px #2f7f7c;
 }
 
