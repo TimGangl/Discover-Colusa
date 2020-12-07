@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoHeader from '../../components/VideoHeader';
+// import VideoHeader from '../../components/VideoHeader';
 import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel';
 import '../../components/PhotoCarousel/PhotoCarousel.css';
 import Navigation from '../../components/Navigation/Navigation';

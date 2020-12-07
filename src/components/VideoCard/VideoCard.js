@@ -10,6 +10,7 @@ const VideoCard = () => {
   return (
     <Card fluid className='react-player-card text-white h1'>
       <Card.Body className='card-body'>
+      
         <ReactPlayer
           className='reactPlayer'
           url={video}
@@ -19,14 +20,17 @@ const VideoCard = () => {
           width='100%'
           height='100%'
         />
+        
       </Card.Body>
       <Card.ImgOverlay className='card-img-overlay'>
         <Card.Title className='card-title'>Discover Colusa</Card.Title>
+
+        <div id="stay-text" style={{color: 'white;'}}><a href='#stay'>Book Now!</a></div>
+
         {/* <Card.Text></Card.Text>
-        <Card.Text></Card.Text> */}
+        <.Text></Card.Text> */}
       </Card.ImgOverlay>
     </Card>
-
     // <Card fluid className='videoOverlayCard'>
     //   <ReactPlayer
     //     className='reactPlayer'

@@ -27,11 +27,14 @@ const responsive = {
 const PhotoCarousel = props => {
   return (
     <Container disableGutters>
-      <h1 className="info text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id.</h1>
+      <h4 className="info text-center"><strong><i>Discover Colusa: </i></strong>the small town by the big Sacramento River. Colusa is the premiere Northern California location for outdoor recreation, hunting, fishing, good food, and a historic downtown with fun places to shop. The City of Colusa has a growing arts and music scene, regularly hosts a beloved ‘street dance’,<br></br> and is home to a collection of extraordinary events.</h4>
+      <h4 className="info text-center">Fourth of July fireworks exploding over the river, duck hunting season opened with Colusa Duck Days festival, Christmastime in Colusa marking the Holidays, Colusa is a destination worthy of discovery.</h4>
+      <h4 className="info text-center">Visitors have river access through the Colusa Boat Launch and other points along Main Street. A short hop off of I-5, Colusa is the nexus of Hwy 20 and 45. Guests will easily find hotel accommodations, B&B, and AirBnB options to extend their stay, and fully discover Colusa. </h4>
+
       <h1 className="SDPS">SHOP</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <Carousel infinite={true} responsive={responsive} autoPlay autoPlaySpeed={2600}>
         <div>
-          <a href="https://www.google.com/" target="_blank"><img src='https://picsum.photos/300/200' alt='placeholder'></img></a>
+          <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
@@ -68,7 +71,7 @@ const PhotoCarousel = props => {
         </div>
       </Carousel>
       <h1 className="SDPS">DINE</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <Carousel infinite={true} responsive={responsive} autoPlay autoPlaySpeed={2800}>
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
@@ -107,7 +110,7 @@ const PhotoCarousel = props => {
         </div>
       </Carousel>
       <h1 className="SDPS">PLAY</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <Carousel infinite={true} responsive={responsive} autoPlay autoPlaySpeed={3000}>
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
@@ -145,8 +148,8 @@ const PhotoCarousel = props => {
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
       </Carousel>
-      <h1 className="SDPS">STAY</h1>
-      <Carousel infinite={true} responsive={responsive}>
+      <h1 className="SDPS" id="stay">STAY</h1>
+      <Carousel infinite={true} responsive={responsive} autoPlay autoPlaySpeed={3200}>
         <div>
           <img src='https://picsum.photos/300/200' alt='placeholder'></img>
         </div>
