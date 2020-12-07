@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from '@material-ui/core';
 import 'react-multi-carousel/lib/styles.css';
+import Modal from 'react-bootstrap/Modal';
 import CarouselModal from '../CarouselModal/CarouselModal';
 import {
-  carouselShopImages,
-  carouselDineImages,
-  carouselPlayImages,
-  carouselStayImages,
-} from '../PhotoCarousel/carousel-images';
+  carouselShopData,
+  carouselDineData,
+  carouselPlayData,
+  carouselStayData,
+} from './carouselData';
 
-const shopImages = carouselShopImages;
-const dineImages = carouselDineImages;
-const playImages = carouselPlayImages;
-const stayImages = carouselStayImages;
+const shopData = carouselShopData;
+const dineData = carouselDineData;
+const playData = carouselPlayData;
+const stayData = carouselStayData;
 
 const responsive = {
   superLargeDesktop: {
@@ -61,7 +62,7 @@ const PhotoCarousel = props => {
         Hwy 20 and 45. Guests will easily find hotel accommodations, B&B, and
         AirBnB options to extend their stay, and fully discover Colusa.{' '}
       </h4>
-
+      {/* Shop Carousel */}
       <h1 className='SDPS'>SHOP</h1>
       <Carousel
         infinite={true}
@@ -69,14 +70,19 @@ const PhotoCarousel = props => {
         autoPlay
         autoPlaySpeed={2600}
       >
-        {shopImages.map(image => {
+        {shopData.map(data => {
           return (
-            <div>
-              <img src={image.source} alt={image.alt}></img>
-            </div>
+            <CarouselModal
+              src={data.image}
+              alt={data.alt}
+              businessName={data.businessName}
+              text={data.text}
+              footer={data.footer}
+            />
           );
         })}
       </Carousel>
+      {/* Dine Carousel */}
       <h1 className='SDPS'>DINE</h1>
       <Carousel
         infinite={true}
@@ -84,14 +90,19 @@ const PhotoCarousel = props => {
         autoPlay
         autoPlaySpeed={2800}
       >
-        {dineImages.map(image => {
+        {dineData.map(data => {
           return (
-            <div>
-              <img src={image.source} alt={image.alt}></img>
-            </div>
+            <CarouselModal
+              src={data.image}
+              alt={data.alt}
+              businessName={data.businessName}
+              text={data.text}
+              footer={data.footer}
+            />
           );
         })}
       </Carousel>
+      {/* Play Carousel */}
       <h1 className='SDPS'>PLAY</h1>
       <Carousel
         infinite={true}
@@ -99,14 +110,19 @@ const PhotoCarousel = props => {
         autoPlay
         autoPlaySpeed={3000}
       >
-        {playImages.map(image => {
+        {playData.map(data => {
           return (
-            <div>
-              <img src={image.source} alt={image.alt}></img>
-            </div>
+            <CarouselModal
+              src={data.image}
+              alt={data.alt}
+              businessName={data.businessName}
+              text={data.text}
+              footer={data.footer}
+            />
           );
         })}
       </Carousel>
+      {/* Stay Carousel */}
       <h1 className='SDPS' id='stay'>
         STAY
       </h1>
@@ -116,11 +132,15 @@ const PhotoCarousel = props => {
         autoPlay
         autoPlaySpeed={3200}
       >
-        {stayImages.map(image => {
+        {stayData.map(data => {
           return (
-            <div>
-              <img src={image.source} alt={image.alt}></img>
-            </div>
+            <CarouselModal
+              src={data.image}
+              alt={data.alt}
+              businessName={data.businessName}
+              text={data.text}
+              footer={data.footer}
+            />
           );
         })}
       </Carousel>
