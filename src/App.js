@@ -4,38 +4,35 @@ import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
 import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction.js';
 
-
 function App() {
   return (
     <>
       <Router>
         <Switch>
-
           <Route exact path={['/']} component={Home}>
             <Home />
           </Route>
           <Route exact path={['/history']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
           <Route exact path={['/art']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
           <Route exact path={['/events']} component={Events}>
             <Events />
           </Route>
           <Route exact path={['/river']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
           <Route exact path={['/fishing']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
           <Route exact path={['/hunting']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
           <Route exact path={['/maps']} component={UnderConstruction}>
-            < UnderConstruction />
+            <UnderConstruction />
           </Route>
-          
         </Switch>
       </Router>
     </>
