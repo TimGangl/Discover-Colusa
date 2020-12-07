@@ -5,6 +5,7 @@ import '../../components/PhotoCarousel/PhotoCarousel.css';
 import Navigation from '../../components/Navigation/Navigation';
 import '../../components/Navigation/Navigation.css';
 import VideoCard from '../../components/VideoCard/VideoCard';
+import HomePageText from '../../components/HomePageText/HomePageText';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <div className='App justify-content-center'>
         <VideoCard />
         <Navigation />
+        <HomePageText />
         <PhotoCarousel />
       </div>
     </>
