@@ -24,7 +24,8 @@ const VideoCard = () => {
       </Card.Body>
       <Card.ImgOverlay className='card-img-overlay'>
         <Card.Title className='card-title'>Discover Colusa</Card.Title>
-        <a id="stay-text" href='#stay' style={{textDecoration:'none'}}>Click here to book a room NOW!</a>
+
+        <div id="stay-text" style={{color: 'white;'}}><a href='#stay'>Book Now!</a></div>
 
         {/* <Card.Text></Card.Text>
         <.Text></Card.Text> */}

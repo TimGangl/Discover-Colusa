@@ -1,4 +1,15 @@
 .SDPS{
+  font-family: 'Daniel';
   margin-top: 3%;
   margin-bottom: 3%;
+  color: #57291a;
 }
+
+.info{
+  color: #57291a;
+}
+
+@font-face{
+  font-family: Daniel;
+  src: url(../Fonts/danielbd.ttf);
+  }
