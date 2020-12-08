@@ -8,7 +8,7 @@ return(
   <>
     <Navigation />
     <div>
-    <img className="img-fluid" src={photo} alt="under construction"></img>
+    <img id="under-construction" className="img-fluid" src={photo} alt="under construction"></img>
     </div>
   </>
 
