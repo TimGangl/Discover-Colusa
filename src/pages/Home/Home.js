@@ -6,17 +6,41 @@ import Navigation from '../../components/Navigation/Navigation';
 import '../../components/Navigation/Navigation.css';
 import VideoCard from '../../components/VideoCard/VideoCard';
 import HomePageText from '../../components/HomePageText/HomePageText';
+import BusinessPage from '../../pages/BusinessPage/BusinessPage';
+import {
+  carouselShopData,
+  carouselDineData,
+  carouselPlayData,
+  carouselStayData,
+} from '../../components/PhotoCarousel/carouselData';
+
+const shopData = carouselShopData;
+const dineData = carouselDineData;
+const playData = carouselPlayData;
+const stayData = carouselStayData;
 
 function Home() {
+  // const [businessWindowOpen, setBusinessWindowOpen] = [false];
+
+  // const handleClick = () => {
+  //   setBusinessWindowOpen([true]);
+  // };
+
   return (
+    // <div className='App justify-content-center'>
+    //   {businessWindowOpen ? (
+    //       <BusinessPage
+    //       image={}/>
+
+    //   ) : (
     <>
-      <div className='App justify-content-center'>
-        <VideoCard />
-        <Navigation />
-        <HomePageText />
-        <PhotoCarousel />
-      </div>
+      <VideoCard />
+      <Navigation />
+      <HomePageText />
+      <PhotoCarousel />
     </>
+    // )}
+    // </div>
   );
 }
 

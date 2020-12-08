@@ -48,7 +48,7 @@ const PhotoCarousel = props => {
         autoPlay
         autoPlaySpeed={2600}
       >
-        {shopData.map(data => {
+        {shopData.map((data, index) => {
           return (
             <CarouselModal
               src={data.image}

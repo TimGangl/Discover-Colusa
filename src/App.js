@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
+import BusinessPage from './pages/BusinessPage/BusinessPage';
 import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction.js';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
         <Switch>
           <Route exact path={['/']} component={Home}>
             <Home />
+          </Route>
+          <Route exact path={['/business']} component={BusinessPage}>
+            <BusinessPage />
           </Route>
           <Route exact path={['/history']} component={UnderConstruction}>
             <UnderConstruction />
