@@ -6,6 +6,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import '../../components/Navigation/Navigation.css';
 import VideoCard from '../../components/VideoCard/VideoCard';
 import HomePageText from '../../components/HomePageText/HomePageText';
+import Footer from '../../components/Footer/Footer';
 import BusinessPage from '../../pages/BusinessPage/BusinessPage';
 import {
   carouselShopData,
@@ -38,6 +39,7 @@ function Home() {
       <Navigation />
       <HomePageText />
       <PhotoCarousel />
+      <Footer />
     </>
     // )}
     // </div>

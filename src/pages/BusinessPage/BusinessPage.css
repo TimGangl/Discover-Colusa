@@ -1,0 +1,20 @@
+@font-face{
+  font-family: Daniel;
+  src: url(../../components/Fonts/danielbd.ttf);
+  }
+
+  #business{
+    font-family: 'Daniel', cursive;
+    color: #57291a;
+    font-size: 3rem;
+  }
+
+  .info{
+    text-decoration: none !important;
+    font-size: 1.5rem;
+    color: #57291a !;
+  }
+
+  .business-img{
+    width: 100vw;
+  }

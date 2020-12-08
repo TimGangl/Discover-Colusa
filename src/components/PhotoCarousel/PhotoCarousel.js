@@ -39,7 +39,7 @@ const responsive = {
 
 const PhotoCarousel = props => {
   return (
-    <Container disableGutters>
+    <Container className='mb-5' disableGutters>
       {/* Shop Carousel */}
       <h1 className='SDPS'>SHOP</h1>
       <Carousel
@@ -55,6 +55,9 @@ const PhotoCarousel = props => {
               alt={data.alt}
               businessName={data.businessName}
               text={data.text}
+              address={data.address}
+              phone={data.phone}
+              hours={data.hours}
               footer={data.footer}
             />
           );
@@ -75,6 +78,9 @@ const PhotoCarousel = props => {
               alt={data.alt}
               businessName={data.businessName}
               text={data.text}
+              address={data.address}
+              phone={data.phone}
+              hours={data.hours}
               footer={data.footer}
             />
           );
@@ -95,6 +101,9 @@ const PhotoCarousel = props => {
               alt={data.alt}
               businessName={data.businessName}
               text={data.text}
+              address={data.address}
+              phone={data.phone}
+              hours={data.hours}
               footer={data.footer}
             />
           );
@@ -117,6 +126,9 @@ const PhotoCarousel = props => {
               alt={data.alt}
               businessName={data.businessName}
               text={data.text}
+              address={data.address}
+              phone={data.phone}
+              hours={data.hours}
               footer={data.footer}
             />
           );
