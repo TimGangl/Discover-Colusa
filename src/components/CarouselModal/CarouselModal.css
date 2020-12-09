@@ -1,0 +1,11 @@
+Link{
+  margin: 2%;
+}
+
+.name{
+  color: #57291a !important;
+}
+
+#carousel-image{
+  box-shadow: 0px 1px 2px 0px black;
+}

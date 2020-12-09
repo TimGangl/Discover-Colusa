@@ -17,19 +17,19 @@ const BusinessPage = props => {
      <div className="col-sm-2"></div>
      </div>
       <div className="row">
-        <div className="col-sm-2"></div>
-        <div className="col-sm-4 mt-3">
+        <div className="col-lg-2 col-md-0"></div>
+        <div className="col-lg-4 col-md-6 mt-3">
           <p className="info">{text}</p>
           <p className="info">{address}</p>
           <p className="info">{phone}</p>
           <p className="info">{hours}</p>
-          <p ><a className="info" href={footer} target='_blank'>{footer}</a></p>
+          <p ><a className="info" href={footer} target='_blank'rel="noreferrer">{footer}</a></p>
         </div>
       
-        <div className="col-sm-4 mt-5">
+        <div className="col-lg-4 col-md-6 mt-5">
           <img className="business-img img-fluid" src={src} alt={alt}></img>
         </div>
-        <div className="col-sm-2"></div>
+        <div className="col-lg-2 col-md-0"></div>
       </div>
       <Footer/>
     </>
