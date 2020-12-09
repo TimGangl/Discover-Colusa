@@ -25,7 +25,7 @@ const HomePageText = () => {
       </h4>
       <h4 className='info text-center mt-5 mb-5'>
         Visitors have river access through the Colusa Boat Launch and other
-        points along Main Street. A short hop off of <br></br> I-5, Colusa is the nexus of
+        points along Main Street. A short hop off of I-5, Colusa is the nexus of
         Hwy 20 and 45. Guests will easily find hotel accommodations, B&B, and
         AirBnB options to extend their stay, and fully discover Colusa.{' '}
       </h4>

@@ -1,140 +1,139 @@
-// This is an array of objects containing information about the businesses on the Home page.
+//import shop images
+import richiesFlower from '../../images/richies-flower.jpg';
+import rusticRefined from '../../images/rustic-refined.jpg';
+import blessingBaby from '../../images/blessing-baby.jpg';
+import christiansClothes from '../../images/christians-corner-clothes.png';
+import sierraFlowers from '../../images/sierra-flowers.png';
+import kittlesOutdoor from '../../images/kittles-outdoor-sport.jpg';
+import friendsAround from '../../images/friends-around-the-block.jpg';
+import artsPom from '../../images/arts-pom.jpg';
 
+//import dine images
+import marketStImage from  '../../images/market-st-sandwich.jpeg';
+import colusaTaco from '../../images/colusa-mexican-tacos.jpeg';
+import roccosPotato from '../../images/rocco-potato.png';
+import dragonFood from '../../images/dragon-food.jpg';
+import donEnchiladas from '../../images/don-enchiladas.jpeg';
+import chefPrime from '../../images/chef-colus-prime.jpg';
+import authenticaBurrito from '../../images/authentica-burrito.jpeg';
+import riversideBurger from '../../images/riverside-lanes-burger.jpg';
+import cabanaBurrito from '../../images/cabana-burrito.jpeg';
+import reinasHandFood from '../../images/reinas-hand-food.jpeg';
+import onTheRangeEnchiladas from '../../images/on-the-range-enchiladas.jpeg';
+import shopNSaveChicken from '../../images/shop-n-save-chicken.jpg';
+import caffinatedCoffee from '../../images/caffinated-coffee.jpg';
+import riverbankPizza from '../../images/riverbank-pizza.jpg';
+import tienditaTacos from '../../images/tiendita-tacos.jpeg';
+import freezetteBurger from '../../images/freezette-burger.jpg';
+import birrieriaSoup from '../../images/birrieria-soup.jpeg';
+
+//import play images
+import duckHunting from '../../images/Duck Hunting 2.jpg';
+import fishingDadSon from '../../images/Fishing Dad Son Poles.jpeg';
+import kayakPaddles from '../../images/Kayak orange paddles.jpg';
+import statePark from '../../images/State Park Sign 1.jpg';
+import sutterButtes from '../../images/Sutter Buttes Red.jpg';
+
+//import stay images
+import riversideInnImage from '../../images/colusa-riverside-inn.webp';
+import colusaMotelImage from '../../images/colusa-motel.jpg'
+import jaysHouseImage from '../../images/jays-house.webp';
+import harkeyHouseImage from '../../images/harkey-house.jpg';
+
+// This is an array of objects containing information about the businesses on the Home page.
 export const carouselShopData = [
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: richiesFlower,
+    alt: 'riches-florist-img',
+    businessName: "Richie's Florist",
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      "Richie's is a full service florist and gift shop with cute boutique products and an eye for home decor. In Colusa since 1945, Richie's Florist is in the same building as the original Colusa City Hall on Market Street. Visit them today for a quick gift, or special Colusa find!",
+      address: '427 Market St ',
+      phone: '(530) 458-5174',
+      hours: 'Monday through Friday 9am-5pm Saturday 9am-1pm Sunday Closed',
+    footer: 'https://www.richiesflorist.net/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: rusticRefined,
+    alt: 'rusic-refined-img',
+    businessName: 'Rustic & Refined',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      "Rustic & Refined is one of those gift and home decor stores with exquisite taste that visitors love returning to time and again. With a range of furniture, art, small decor pieces, pillows, wall hangings and more, Rustic & Refined is a can't miss destination in Downtown Colusa.",
+      address: '430 Market Street suite G ',
+      phone: ' (916) 224-6760',
+      hours: '',
+    footer: 'https://www.facebook.com/Colusas-Rustic-Refined-106441664434637',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: blessingBaby,
+    alt: 'blessings-img',
+    businessName: 'Blessings: Mother & Baby Boutique',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    footer: 'Maybe some links or something',
+      "Blessing Mother & Baby has been in operation since 2017 offering the most darling selection of baby, kid, older kid, and mother centric clothing and wares. They also features a selection of rare art from local artists and craftsman. Frequently cited as one of the cutest stores in Colusa, they can be found on 5th street in Colusa's quaint Historic Downtown.",
+      address: '245 5th Street',
+      phone: '(530) 476-2320 ',
+      hours:'',    
+      footer: 'https://www.facebook.com/blessingsmotherandbabyboutique/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: christiansClothes,
+    alt: 'christians-corner-img',
+    businessName: 'Christians Corner',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      "Christian's Corner is led by teenage design and lifestyle phenom Christian Duran. The store is a reflection of a modern design aesthetic offering a wonderful selection of women's clothing, home wares, sunglasses, photography, and more.",
+      address: '433 Market St.',
+      phone: '(530) 383-6149  ',
+      hours: 'Monday & Tuesday Closed Wednesday & Thursday 11am-4pm Friday 11am-7pm Saturday 10am-7pm Sunday 10am-4pm',
+    footer: 'https://christianscorner.co',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: sierraFlowers,
+    alt: 'sierra-flowers-img',
+    businessName: 'Sierra Flowers',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      'Sierra FLowers has been a Colusa mainstay since 2011 providing flowers, event rental equipment, catering, and event servicing to regional eventgoers. Well known for the bright live canary aviary in their shop, Sierra Flowers is a family run operation and the place to source cute gifts from Colusa and more!',
+      address: '330 Market Street',
+      phone: '(530) 458-8128 ',
+      hours: 'Monday through Friday 8am-6pm Saturday 8am-2:30pm Sunday Closed',
+    footer: 'www.sierraflowers.net',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: kittlesOutdoor,
+    alt: 'kittles-img',
+    businessName: 'Kittles Outdoor & Sport',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      "Kittles Outdoor is the legendary hunting and fishing store with a tremendous selection of guns and gear for your next great Colusa adventure. Discover Colusa fully outfitted by Kittles- they have everything! A Downtown Colusa mainstay for over 20 years, just one visit will turn you into a loyal Kittle's customer!",
+      address: '888 Market Street',
+      phone: '(530) 458-4868',
+      hours: 'Monday through Saturday 5am-6pm Sunday 5am-2pm',
+    footer: 'https://www.kittlesoutdoor.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: friendsAround,
+    alt: 'friends-around-block-img',
+    businessName: 'Friends Around the Block',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      "Open since 2013, Friends Around the Block Quilt Shop is a popular destination for Northern California Quilters. Guests come from far and wide to take quilting classes, have their works 'quilted' on the shop's long-arm machine, and peruse the carefully selected inventory. Friends Around the Block Quilt Shop in Colusa is a wonderful place to find gifts and products for a quilter of any level!",
+      address: '211 8th Street ',
+      phone: '(530) 458-7467  ',
+      hours: 'Tuesday through Friday 10am-5pm Saturday 10am-4pm Sunday & Monday Closed',
+    footer: 'https://www.friendsaroundtheblock.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+    image: artsPom,
+    alt: 'colusa-art-council-img',
+    businessName: 'Colusa County Arts Council',
+    text: "When visiting the Colusa County Arts Council store, guests will find a unique selection of paintings, photographs, sculpture and more from local artisans and craftspeople. Stop by and peek in their windows at their location in historic Downtown Colusa!",
+      address: '151 5th Street',
+      phone: '(530) 458-2222',
+      hours: 'Monday through Friday 11am-1pm Saturday & Sunday Closed',
+    footer: 'http://www.colusacountyartscouncil.org/',
   },
 ];
 
 export const carouselDineData = [
   {
-    image: 'https://picsum.photos/300/200',
+    image: marketStImage,
     alt: 'market-img',
     businessName: 'Market Street Grill',
     text:
@@ -145,7 +144,7 @@ export const carouselDineData = [
     footer: 'https://www.marketstgrill.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: colusaTaco,
     alt: 'tacos-img',
     businessName: 'Tacos El Amigo',
     text:
@@ -156,7 +155,7 @@ export const carouselDineData = [
     footer: 'https://m.facebook.com/tacos.elamigo.5',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: roccosPotato,
     alt: 'roccos-img',
     businessName: 'Roccos Bar & Grill',
     text:
@@ -167,9 +166,9 @@ export const carouselDineData = [
     footer: 'https://www.roccosbarandgrill.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: dragonFood,
     alt: 'dragon-img',
-    businessName: 'Business Name',
+    businessName: 'Dragon Island',
     text:
       "Dragon Island is Colusa's premiere Chinese restaurant featuring a 3 page menu of delicious Asian fare. Located in Colusa's Historic Downtown.",
       address: '535 Market Street',
@@ -178,7 +177,7 @@ export const carouselDineData = [
     footer: 'http://dragon-island.edan.io/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: donEnchiladas,
     alt: 'don-habaneros-img',
     businessName: 'Don Habaneros',
     text:
@@ -189,7 +188,7 @@ export const carouselDineData = [
     footer: 'https://zmenu.com/don-habanero-colusa-online-menu/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: chefPrime,
     alt: 'chef-colus-img',
     businessName: 'Chef Colus',
     text:
@@ -200,7 +199,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/ChefColus',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: authenticaBurrito,
     alt: 'la-authentica-img',
     businessName: 'La Authentica de Colima',
     text:
@@ -211,7 +210,7 @@ export const carouselDineData = [
     footer: 'http://la-autentica-de-colima.edan.io/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: riversideBurger,
     alt: 'riverside-lanes-img',
     businessName: 'Riverside Lanes',
     text:
@@ -222,7 +221,7 @@ export const carouselDineData = [
     footer: 'http://www.colusabowling.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: cabanaBurrito,
     alt: 'la-cabana-img',
     businessName: 'La Cabana',
     text:
@@ -233,7 +232,7 @@ export const carouselDineData = [
     footer: 'https://zmenu.com/la-cabana-colusa-2-online-menu/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: reinasHandFood,
     alt: 'las-reinas-img',
     businessName: 'Las Reinas',
     text:
@@ -244,7 +243,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/carnicerialasreinas',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: onTheRangeEnchiladas,
     alt: 'resturant-on-the-range-img',
     businessName: 'Restaurant on the Range',
     text:
@@ -255,7 +254,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/therangecolusa/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: shopNSaveChicken,
     alt: 'shop-n-save-img',
     businessName: 'Shop N Save',
     text:
@@ -266,7 +265,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/SHOP-N-SAVE-106529420797814/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: caffinatedCoffee,
     alt: 'caffeinated-img',
     businessName: 'Caffeinated',
     text:
@@ -277,7 +276,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/CaffeinatedColusa/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: riverbankPizza,
     alt: 'riverbank-pizza-img',
     businessName: 'Riverbank Pizza',
     text:
@@ -288,7 +287,7 @@ export const carouselDineData = [
     footer: 'https://www.zmenu.com/riverbank-pizza-colusa-online-menu/',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: tienditaTacos,
     alt: 'la-tiendita-img',
     businessName: 'La Tiendita',
     text:
@@ -299,7 +298,7 @@ export const carouselDineData = [
     footer: 'https://www.facebook.com/pages/La%20Tiendita%20Colusa,%20Ca/452288361526104',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: freezetteBurger,
     alt: 'jeff=freezette-img',
     businessName: "Jeff's Freezette",
     text:
@@ -310,7 +309,7 @@ export const carouselDineData = [
     footer: 'https://m.facebook.com/pages/Jeffs-Freezette/115898871764286',
   },
   {
-    image: 'https://picsum.photos/300/200',
+    image: birrieriaSoup,
     alt: 'birrieria-michoacan-img',
     businessName: 'Birrieria Michoacan',
     text:
@@ -324,271 +323,105 @@ export const carouselDineData = [
 
 export const carouselPlayData = [
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'birrieria-michoacan-img',
-    businessName: 'Birrieria Michoacan',
+    image: duckHunting,
+    alt: 'duck-hunting-img',
+    businessName: '',
     text:
-      'A traditional Mexican Restaurant at the edge of town, Birrieria Michoacan has ample parking and easy access.',
-      address: '1246 Market Street',
-      phone: '(530) 619-0175',
-      hours: 'Tuesday through Sunday, 7am-4pm',
-    footer: 'Maybe some links or something',
+      'This page is still under construction. Come back soon!',
+      address: '',
+      phone: '',
+      hours: '',
+    footer: '',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+    image: fishingDadSon,
+    alt: 'fishing-img',
+    businessName: '',
+    text: 'This page is still under construction. Come back soon!',
+      address: '',
+      phone: '',
+      hours: '',
+    footer: '',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: kayakPaddles,
+    alt: 'kayak-img',
+    businessName: '',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      'This page is still under construction. Come back soon!',
+      phone: '',
+      hours: '',
+    footer: '',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: statePark,
+    alt: 'statepark-img',
+    businessName: '',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      'This page is still under construction. Come back soon!',
+      address: '',
+      phone: '',
+      hours: '',
+    footer: '',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: sutterButtes,
+    alt: 'sutter-butte-img',
+    businessName: '',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      'This page is still under construction. Come back soon!',
+      address: '',
+      phone: '',
+      hours: '',
+    footer: '',
   },
 ];
 export const carouselStayData = [
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: riversideInnImage,
+    alt: 'riverside-inn-img',
+    businessName: 'Colusa Riverside Inn',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      '',
+      address: '41 5th St',
+      phone: '(530)458-5880',
+      hours: '',
+    footer: 'https://bestcolusamotel.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: colusaMotelImage,
+    alt: 'colusa-motel-img',
+    businessName: 'Colusa Motel',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      '',
+      address: '60 Market St, Colusa  ',
+      phone: '(530) 458-4906 ',
+      hours: '',
+    footer: 'https://www.colusamotel.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: jaysHouseImage,
+    alt: 'jay-vacation-rental-img',
+    businessName: 'Jay House Vacation Rental',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      '',
+      address: '249 Jay St ',
+      phone: '(707) 480-3457',
+      hours: '',
+    footer: 'http://www.jayhousecolusa.com/',
   },
   {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
+    image: harkeyHouseImage,
+    alt: 'harkey-house-img',
+    businessName: ' Harkey House',
     text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
+      '',
+      address: '212 C St ',
+      phone: ' (530) 674-1942',
+      hours: '',
+    footer: 'http://www.harkeyhouse.com/',
   },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
-  {
-    image: 'https://picsum.photos/300/200',
-    alt: 'placeholder',
-    businessName: 'Business Name',
-    text:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      address: 'an address',
-      phone: 'phone',
-      hours: 'hours',
-    footer: 'Maybe some links or something',
-  },
+  
 ];
 
 export default {
