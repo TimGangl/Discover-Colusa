@@ -26,6 +26,10 @@ const CarouselModal = props => {
           address: props.address,
           phone: props.phone,
           hours: props.hours,
+          hours2: props.hours2,
+          hours3: props.hours3,
+          hours4: props.hours4,
+          hours5: props.hours5,
           footer: props.footer,
         },
       }}

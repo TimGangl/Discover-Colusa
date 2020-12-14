@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from '@material-ui/core';
 import 'react-multi-carousel/lib/styles.css';
 import Modal from 'react-bootstrap/Modal';
+import '../../components/PhotoCarousel/PhotoCarousel.css';
 import CarouselModal from '../CarouselModal/CarouselModal';
 import {
   carouselShopData,
@@ -39,10 +40,10 @@ const responsive = {
 
 const PhotoCarousel = props => {
   return (
-    <Container className='mb-5' disableGutters>
+    <Container className=' mb-5' >
       {/* Shop Carousel */}
       <h1 className='SDPS'>SHOP</h1>
-      <Carousel
+      <Carousel className="ml-1"
         infinite={true}
         responsive={responsive}
         autoPlay
@@ -58,6 +59,10 @@ const PhotoCarousel = props => {
               address={data.address}
               phone={data.phone}
               hours={data.hours}
+              hours2={data.hours2}
+              hours3={data.hours3}
+              hours4={data.hours4}
+              hours5={data.hours5}
               footer={data.footer}
             />
           );
@@ -81,6 +86,10 @@ const PhotoCarousel = props => {
               address={data.address}
               phone={data.phone}
               hours={data.hours}
+              hours2={data.hours2}
+              hours3={data.hours3}
+              hours4={data.hours4}
+              hours5={data.hours5}
               footer={data.footer}
             />
           );
@@ -104,6 +113,10 @@ const PhotoCarousel = props => {
               address={data.address}
               phone={data.phone}
               hours={data.hours}
+              hours2={data.hours2}
+              hours3={data.hours3}
+              hours4={data.hours4}
+              hours5={data.hours5}
               footer={data.footer}
             />
           );
@@ -129,6 +142,10 @@ const PhotoCarousel = props => {
               address={data.address}
               phone={data.phone}
               hours={data.hours}
+              hours2={data.hours2}
+              hours3={data.hours3}
+              hours4={data.hours4}
+              hours5={data.hours5}
               footer={data.footer}
             />
           );

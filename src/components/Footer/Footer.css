@@ -1,15 +1,21 @@
-.main-footer{
+footer{
   width: 100%;
-  margin-top: 1rem;
-  background-image: linear-gradient(to top right, #d55023, #d29715);
+  margin: 0;
+  bottom: 0;
+}
+
+.main-footer{
+  margin-top: 1%;
+  margin-bottom: 0;
+  background-image: linear-gradient(to top right, #d55023, #e6a61d);
   position: -webkit-sticky;
   bottom: 0;
   left: 0;
-  
-  width: auto;
 }
 
 .tim{
+  width: 100%;
   color: white !important;
   text-decoration: none !important;
+  margin-bottom: 0;
 }
