@@ -6,7 +6,7 @@ import '../BusinessPage/BusinessPage.css';
 const BusinessPage = props => {
   const location = useLocation();
 
-  const { src, alt, businessName, text, address, phone, hours, footer } = location.state;
+  const { src, alt, businessName, text, address, phone, hours, hours2, hours3, hours4, hours5, footer } = location.state;
   return (
     <>
       
@@ -20,10 +20,13 @@ const BusinessPage = props => {
         <div className="col-lg-2 col-md-0"></div>
         <div className="col-lg-4 col-md-6 mt-3">
           <p className="info">{text}</p>
+          <p><a className="info" href={footer} target='_blank'rel="noreferrer">{footer}</a></p>
           <p className="info">{address}</p>
           <p className="info">{phone}</p>
-          <p className="info">{hours}</p>
-          <p ><a className="info" href={footer} target='_blank'rel="noreferrer">{footer}</a></p>
+          <p className="info mb-0">{hours}<br></br>{hours2}</p>
+          <p className="info mt-0">{hours3}<br></br>{hours4}<br></br>{hours5}</p>
+          <p classname="info m-0"></p>
+          
         </div>
       
         <div className="col-lg-4 col-md-6 mt-5">
