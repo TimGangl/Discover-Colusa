@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactPlayer from 'react-player/lazy';
 import video from '../../videos/hand-in-water.mp4';
 import { Card } from 'react-bootstrap';
@@ -7,20 +7,23 @@ import '..//Navigation/Navigation.css';
 import '../VideoCard/VideoCard.css';
 
 const VideoCard = () => {
+  const [playVideo, setPlayVideo] = useState(false);
+
   return (
     <Card fluid className='react-player-card text-white h1'>
       <Card.Body className='card-body'>
-      
         <ReactPlayer
           className='reactPlayer'
           url={video}
-          playing
+          onReady={() => {
+            setPlayVideo(true);
+          }}
+          playing={playVideo}
           loop
           muted
           width='100%'
           height='100%'
         />
-        
       </Card.Body>
       <Card.ImgOverlay className='card-img-overlay'>
         <Card.Title className='card-title'>Discover Colusa</Card.Title>
