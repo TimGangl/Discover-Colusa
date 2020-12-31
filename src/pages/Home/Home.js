@@ -35,14 +35,17 @@ function Home() {
 
     //   ) : (
     <>
+    
       <VideoCard />
       <Navigation />
       <HomePageText />
       <PhotoCarousel />
       <Footer />
+
+    
     </>
     // )}
-    // </div>
+    //
   );
 }
 
