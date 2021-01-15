@@ -11,17 +11,17 @@ const HomePageText = () => {
         <strong>
           <i>Discover Colusa: </i>
         </strong>
-        the small town by the big Sacramento River. Colusa is the premiere
+        The small town by the big Sacramento River. Colusa is the premiere
         Northern California location for outdoor recreation, hunting, fishing,
-        good food, and a historic downtown with fun places to shop. The City of
-        Colusa has a growing arts and music scene, regularly hosts a beloved
-        ‘street dance’,<br></br> and is home to a collection of extraordinary
-        events.
+        good food, and a historic downtown with fun places to shop. With a 
+        growing arts and music scene, beloved
+        'street dances', and unique river access, Colusa is home to a collection of extraordinary
+        events and activities.
       </h4>
       <h4 className='info text-center mt-5 mb-5'>
         Fourth of July fireworks exploding over the river, duck hunting season
         opened with Colusa Duck Days festival, Christmastime in Colusa marking
-        the Holidays,<br></br> Colusa is a destination worthy of discovery.
+        the Holidays...<br></br> Colusa is a destination worthy of discovery.
       </h4>
       <h4 className='info text-center mt-5 mb-5'>
         Visitors have river access through the Colusa Boat Launch and other

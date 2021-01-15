@@ -3,7 +3,7 @@ import Navigation from '../../components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
 import '../../components/Navigation/Navigation.css';
 import photo from '../../images/colusa.jpg';
-import photo2 from '../../images/sipandstroll.png';
+import photo2 from '../../images/Colusa Restaurants Duck Week 2021.png';
 
 
 function Events(){
