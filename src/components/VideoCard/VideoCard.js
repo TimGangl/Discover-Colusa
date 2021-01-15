@@ -5,6 +5,7 @@ import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '..//Navigation/Navigation.css';
 import '../VideoCard/VideoCard.css';
+import { Link } from 'react-router-dom';
 
 const VideoCard = () => {
   return (
@@ -25,7 +26,7 @@ const VideoCard = () => {
       <Card.ImgOverlay className='card-img-overlay'>
         <Card.Title className='card-title'>Discover Colusa</Card.Title>
 
-        {/* <div id="stay-text" style={{color: 'white;'}}><a href='#stay'>Book Now!</a></div> */}
+        <div id="stay-text" style={{color: 'white;'}}><Link to="/events">Upcoming Events!</Link></div>
 
         {/* <Card.Text></Card.Text>
         <.Text></Card.Text> */}
