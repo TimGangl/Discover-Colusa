@@ -22,7 +22,7 @@ const BusinessPage = props => {
           <p className="info">{text}</p>
           <p><a className="info" href={footer} target='_blank'rel="noreferrer">{footer}</a></p>
           <p className="info">{address}</p>
-          <p className="info">{phone}</p>
+          <p className="info"><a className="info" href="tel:{phone}">{phone}</a></p>
           <p className="info mb-0">{hours}<br></br>{hours2}</p>
           <p className="info mt-0">{hours3}<br></br>{hours4}<br></br>{hours5}</p>
           <p classname="info m-0"></p>

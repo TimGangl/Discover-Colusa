@@ -1,0 +1,16 @@
+.rest-name{
+  color: #57291a !important;
+  font-family: 'Daniel', cursive;
+  font-size: 2.2vw;
+}
+
+.duck-text{
+  
+  color: #57291a !important;
+  font-size: 1.1vw;
+  text-decoration: none !important;
+}
+
+.duck-container{
+  margin-top: 3.5%;
+}
