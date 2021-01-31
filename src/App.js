@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
 import BusinessPage from './pages/BusinessPage/BusinessPage';
 import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction';
-import BlogSpot from './pages/BlogSpot/BlogSpot';
+import BlogArticle from './pages/BlogArticle/BlogArticle';
 import BlogSingle from './pages/BlogSingle/BlogSingle';
 import Press from './pages/Press/Press';
 
@@ -31,8 +31,8 @@ function App() {
           <Route exact path={['/river']} component={UnderConstruction}>
             <UnderConstruction />
           </Route>
-          <Route exact path={['/blogspot']} component={BlogSpot}>
-            <BlogSpot />
+          <Route exact path={['/blogarticles']} component={BlogArticle}>
+            <BlogArticle />
           </Route>
           <Route exact path={['/blog']} component={BlogSingle}>
             <BlogSingle />
