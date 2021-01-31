@@ -3,7 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
 import BusinessPage from './pages/BusinessPage/BusinessPage';
-import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction.js';
+import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction';
+import BlogSpot from './pages/BlogSpot/BlogSpot';
+import BlogSingle from './pages/BlogSingle/BlogSingle';
+import Press from './pages/Press/Press';
 
 function App() {
   return (
@@ -28,11 +31,14 @@ function App() {
           <Route exact path={['/river']} component={UnderConstruction}>
             <UnderConstruction />
           </Route>
-          <Route exact path={['/fishing']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/blogspot']} component={BlogSpot}>
+            <BlogSpot />
           </Route>
-          <Route exact path={['/hunting']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/blog']} component={BlogSingle}>
+            <BlogSingle />
+          </Route>
+          <Route exact path={['/press']} component={Press}>
+            <Press />
           </Route>
           <Route exact path={['/maps']} component={UnderConstruction}>
             <UnderConstruction />

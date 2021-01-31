@@ -40,13 +40,13 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/fishing' disabled>
-            Fishing
+          <Link className='link' to='/blogspot' disabled>
+            Blogs
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/hunting' disabled>
-            Hunting
+          <Link className='link' to='/press' disabled>
+            Press
           </Link>
           </Nav.Link>
           <Nav.Link className="link">

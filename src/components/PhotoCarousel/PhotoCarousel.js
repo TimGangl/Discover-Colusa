@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from '@material-ui/core';
 import 'react-multi-carousel/lib/styles.css';
-import Modal from 'react-bootstrap/Modal';
 import '../../components/PhotoCarousel/PhotoCarousel.css';
 import CarouselModal from '../CarouselModal/CarouselModal';
 import {
