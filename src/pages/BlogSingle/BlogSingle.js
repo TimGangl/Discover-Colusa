@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/Footer/Footer';
 import './BlogSingle.css';
-import singleBlogData from '../BlogSpot/BlogData';
+import singleBlogData from '../BlogArticle/BlogData';
 
 
 function BlogSingle(){

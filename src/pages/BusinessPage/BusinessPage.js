@@ -11,8 +11,8 @@ const BusinessPage = props => {
     <>
       
 
-     <div className="row mt-5">
-     <div className="col-sm-2"></div>
+    <div className="row mt-5">
+    <div className="col-sm-2"></div>
 <div className="col-8"><h1 id="business" className="businessInfo">{businessName}</h1></div>
      <div className="col-sm-2"></div>
      </div>

@@ -14,7 +14,7 @@ export const singleBlogData = [
   {
     image: duck,
     alt: 'a duck with crazy hair',
-    blogTitle: 'Another BLog about Colusa',
+    blogTitle: 'Another Blog about Colusa',
     blogAuthor: 'Jed Smit',
     blogDate: 'January 30, 2021',
     blogPreview: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus consequat libero et sodales eleifend. Donec enim libero, lacinia facilisis vestibulum vel, blandit eu risus.',

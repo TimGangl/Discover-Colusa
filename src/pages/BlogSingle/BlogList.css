@@ -1,0 +1,9 @@
+@font-face{
+  font-family: Daniel;
+  src: url(../../components/Fonts/danielbd.ttf);
+  }
+
+.text-left{
+  font-family: 'Daniel', cursive;
+  color: #57291a !important;
+}

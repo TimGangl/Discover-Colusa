@@ -40,7 +40,7 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/blogspot' disabled>
+          <Link className='link' to='/blogarticles'>
             Blogs
           </Link>
           </Nav.Link>
