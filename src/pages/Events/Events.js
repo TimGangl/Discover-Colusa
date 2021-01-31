@@ -20,7 +20,7 @@ function Events(){
       <div className="duck-image text-center"><img className="img-fluid" src={photo2} alt="duck event"></img>
       </div>
       </div>
-      <div className="col-3 duck-container"><span className="duck-text">Colusa is world-famous for its superb migratory waterfowl hunting grounds and thousands of hunters flock to this small town every year from October-January hoping to stock their freezers with delicious duck. This year, Colusa restaurants are paying tribute to the last week of Duck Season by adding delicious duck dishes to their menus- for the week of January24th-31st open. Participating restaurants include: </span></div>
+      <div className="col-3 main duck-container"><span className="  duck-text">Colusa is world-famous for its superb migratory waterfowl hunting grounds and thousands of hunters flock to this small town every year from October-January hoping to stock their freezers with delicious duck. This year, Colusa restaurants are paying tribute to the last week of Duck Season by adding delicious duck dishes to their menus- for the week of January24th-31st open. Participating restaurants include: </span></div>
       <div className="col-3"></div>
       </div>
 

@@ -9,8 +9,15 @@
   color: #57291a !important;
   font-size: 1.1vw;
   text-decoration: none !important;
+
 }
 
 .duck-container{
   margin-top: 3.5%;
+}
+
+@media screen and (max-width: 700px){
+.main{
+line-height: 10px;
+}
 }
