@@ -4,23 +4,19 @@
 }
 
 #business {
-  font-family: "Daniel", cursive;
+  font-family: 'Daniel', cursive;
   color: #57291a;
   font-size: 3rem;
 }
 
 .info {
   text-decoration: none !important;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: #57291a !important;
+  word-wrap: break-word;
 }
 
 .business-img {
-  max-width: 525px;
   box-shadow: 0px 1px 2px 0px black;
   border-radius: 2%;
-}
-
-.businessPageContainer {
-  height: 100%;
 }

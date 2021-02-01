@@ -7,11 +7,13 @@ import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruc
 import BlogArticleList from './pages/BlogArticleList/BlogArticleList';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Press from './pages/Press/Press';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route exact path={['/']} component={Home}>
             <Home />
