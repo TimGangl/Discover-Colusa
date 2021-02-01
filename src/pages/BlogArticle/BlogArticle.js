@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from '../../components/Navigation/Navigation';
+import { useLocation } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import './BlogArticle.css';
 import photo from '../../images/blog.jpg';
@@ -7,47 +7,27 @@ import singleBlogData from './BlogData';
 import BlogList from '../BlogSingle/BlogList';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const BlogData = singleBlogData;
+function BlogArticle(props) {
+  const location = useLocation();
 
-function BlogArticle() {
-  console.log(BlogData);
+  const { title, author, date, preview, content, src, alt } = location.state;
   return (
     <>
       <div>
-        <img
-          className='img-fluid'
-          src={photo}
-          alt='many books with pages open'
-        ></img>
+        <div className='row'>
+          <div className='col-sm-2'></div>
+          <div className='col-8'>
+            <h1 classname='blogInfo'>{title}</h1>
+          </div>
+          <div className='col-sm-2'></div>
+          <div className='row'>
+            <div className='col-lg-2 col-md-0'></div>
+            <div classname='col-lg-4 col-md-6 mt-3'></div>
+            <div classname='col-lg-4 col-md-6 mt-3'></div>
+            <div className='col-lg-2 col-md-0'></div>
+          </div>
+        </div>
       </div>
-      <Navigation />
-      <Container fluid className='justify-content-center'>
-        <Row className='justify-content-center'>
-          <h1 className='blog-header text-center m-3 mt-5'>Blog Articles</h1>
-        </Row>
-        <Row className='justify-content-center'>
-          <Col sm>
-            {/* <div className="col-sm-2"></div> */}
-
-            {BlogData.map((blog, i) => {
-              return (
-                <BlogList
-                  title={blog.blogTitle}
-                  author={blog.blogAuthor}
-                  date={blog.blogDate}
-                  preview={blog.blogPreview}
-                  content={blog.blogContent}
-                  src={blog.image}
-                  alt={blog.alt}
-                  key={i}
-                />
-              );
-            })}
-
-            {/* <div className="col-sm-2"></div> */}
-          </Col>
-        </Row>
-      </Container>
       <Footer />
     </>
   );

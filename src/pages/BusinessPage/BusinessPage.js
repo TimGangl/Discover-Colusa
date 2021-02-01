@@ -87,9 +87,23 @@ const BusinessPage = props => {
           <p classname="info m-0"></p>
           
         </div>
-      
-        <div className="col-lg-4 col-md-6 mt-5">
-          <img className="business-img img-fluid" src={src} alt={alt}></img>
+        <div className="row">
+          <div className="col-lg-2 col-md-0"></div>
+          <div className="col-lg-4 col-md-6 mt-3">
+            <p className="info">{text}</p>
+            <p><a className="info" href={footer} target='_blank' rel="noreferrer">{footer}</a></p>
+            <p className="info">{address}</p>
+            <p className="info"><a className="info" href="tel:{phone}">{phone}</a></p>
+            <p className="info mb-0">{hours}<br></br>{hours2}</p>
+            <p className="info mt-0">{hours3}<br></br>{hours4}<br></br>{hours5}</p>
+            <p classname="info m-0"></p>
+
+          </div>
+
+          <div className="col-lg-4 col-md-6 mt-5">
+            <img className="business-img img-fluid" src={src} alt={alt}></img>
+          </div>
+          <div className="col-lg-2 col-md-0"></div>
         </div>
         <div className="col-lg-2 col-md-0"></div>
       </div> */}
