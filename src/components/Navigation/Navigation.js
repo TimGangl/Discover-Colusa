@@ -14,44 +14,44 @@ function Navigation() {
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
         <Nav className='justify-content-center m-auto'>
-        <Nav.Link className="link">
-          <Link className='link' to='/'>
-            Home
+          <Nav.Link className="link">
+            <Link className='link' to='/'>
+              Home
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/history' disabled>
-            History
+            <Link className='link' to='/history' disabled>
+              History
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/art' disabled>
-            Art
+            <Link className='link' to='/art' disabled>
+              Art
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/events'>
-            Events
+            <Link className='link' to='/events'>
+              Events
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/river' disabled>
-            River
+            <Link className='link' to='/river' disabled>
+              River
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/blogarticles'>
-            Blogs
+            <Link className='link' to='/blog-articles'>
+              Blogs
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/press' disabled>
-            Press
+            <Link className='link' to='/press' disabled>
+              Press
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-          <Link className='link' to='/Maps' disabled>
-            Maps
+            <Link className='link' to='/Maps' disabled>
+              Maps
           </Link>
           </Nav.Link>
         </Nav>
