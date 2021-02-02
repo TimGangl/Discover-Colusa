@@ -1,4 +1,14 @@
-.press-header{
-  font-family: 'Daniel', cursive;
+.press-header {
+  font-family: "Daniel", cursive;
   color: #57291a;
+}
+
+.press-info {
+  text-decoration: none !important;
+  color: #57291a !important;
+}
+
+.press-info :hover {
+  background-color: antiquewhite;
+  border-radius: 4%;
 }
