@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
+import Navigation from '../../components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
 import '../BusinessPage/BusinessPage.css';
 import { Row, Container, Col, Jumbotron } from 'react-bootstrap';
@@ -23,13 +24,14 @@ const BusinessPage = props => {
   } = location.state;
   return (
     <>
+      <Navigation />
       <Jumbotron
         d-flex
         fluid
-        style={{ height: '92vh' }}
+        // style={{ height: '92vh' }}
         className='bg-transparent'
       >
-        <Row className='mt-5 justify-content-center'>
+        <Row className='justify-content-center'>
           <Col sm={8}>
             <h1 id='business' className='businessInfo'>
               {businessName}
