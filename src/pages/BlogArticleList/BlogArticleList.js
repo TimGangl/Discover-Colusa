@@ -10,6 +10,7 @@ import { Row, Col, Container } from 'react-bootstrap';
 const BlogData = singleBlogData;
 
 function BlogArticleList() {
+  console.log(BlogData[0].images);
   return (
     <>
       <div>
@@ -40,8 +41,7 @@ function BlogArticleList() {
                       date: blog.blogDate,
                       preview: blog.blogPreview,
                       content: blog.blogContent,
-                      src: blog.image,
-                      alt: blog.alt,
+                      images: blog.images,
                     },
                   }}
                 >
@@ -51,8 +51,7 @@ function BlogArticleList() {
                     date={blog.blogDate}
                     preview={blog.blogPreview}
                     content={blog.blogContent}
-                    src={blog.image}
-                    alt={blog.alt}
+                    images={blog.images}
                     key={i}
                   />
                 </Link>

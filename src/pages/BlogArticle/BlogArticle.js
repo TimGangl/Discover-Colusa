@@ -5,12 +5,12 @@ import Footer from '../../components/Footer/Footer';
 import './BlogArticle.css';
 import photo from '../../images/blog.jpg';
 import singleBlogData from '../../data/BlogData';
-import { Container, Row, Col, Card, Jumbotron } from 'react-bootstrap';
+import { Container, Row, Col, Card, Jumbotron, Image } from 'react-bootstrap';
 
 function BlogArticle(props) {
   const location = useLocation();
 
-  const { title, author, date, preview, content, src, alt } = location.state;
+  const { title, author, date, preview, content, images } = location.state;
 
   return (
     <>
@@ -23,21 +23,28 @@ function BlogArticle(props) {
       >
         <Row className='justify-content-center'>
           <Col sm={7}>
-            <h1 className="blog-header">
-              {title}
-            </h1>
+            <h1 className='blog-header'>{title}</h1>
           </Col>
         </Row>
         <Row className='justify-content-center' style={{ height: '100vh' }}>
           <Col d-flex md={4} className='mt-3'>
             <h2 className='info'>{author}</h2>
-            <h3 className="info">{date}</h3>
-            <p className="info">{content}</p>
-
+            <h3 className='info'>{date}</h3>
+            <p className='info'>{content}</p>
           </Col>
 
           <Col d-flex md={3} className='mt-5 '>
-            <img className='business-img img-fluid justify-content-center' src={src} alt={alt}></img>
+            {images.map(img => {
+              console.log(img);
+              return (
+                <Image
+                  className='blog-img img-fluid mx-auto my-2'
+                  src={img.src}
+                  alt={img.alt}
+                />
+              );
+            })}
+            {/* <img className='business-img img-fluid justify-content-center' src={src} alt={alt}></img> */}
           </Col>
         </Row>
       </Jumbotron>
