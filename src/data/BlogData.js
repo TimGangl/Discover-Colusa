@@ -1,6 +1,9 @@
 //import images for blogs
-import duck from '../images/BlogImages/duck.jpg';
-import burrito from '../images/cabana-burrito.jpeg';
+import ChinaTown from '../images/BlogImages/ChinaTown.jpg';
+import ColusaAerial from '../images/BlogImages/ColusaAerial.png';
+import LeveeParkRiver from '../images/BlogImages/LeveeParkRiver.jpg';
+import KellersThumb from '../images/BlogImages/kellehers-thumb.png';
+import GrandHouse from '../images/BlogImages/Grand-House.jpg';
 
 export const singleBlogData = [
   //first blog article

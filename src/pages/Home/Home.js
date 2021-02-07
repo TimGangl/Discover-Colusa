@@ -21,31 +21,17 @@ const playData = carouselPlayData;
 const stayData = carouselStayData;
 
 function Home() {
-  // const [businessWindowOpen, setBusinessWindowOpen] = [false];
-
-  // const handleClick = () => {
-  //   setBusinessWindowOpen([true]);
-  // };
-
   return (
-    // <div className='App justify-content-center'>
-    //   {businessWindowOpen ? (
-    //       <BusinessPage
-    //       image={}/>
-
-    //   ) : (
     <>
-    
+
       <VideoCard />
       <Navigation />
       <HomePageText />
       <PhotoCarousel />
       <Footer />
 
-    
+
     </>
-    // )}
-    //
   );
 }
 

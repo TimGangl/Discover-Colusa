@@ -1,17 +1,11 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import { Row, Col, Image, Card } from 'react-bootstrap';
 import './BlogArticleListItem.css';
 
 const BlogArticleListItem = props => {
   console.log(props.blogContentSections[0]);
   return (
     <Card border='white' className='py-2'>
-      {/* <Card.Img
-        className='img-fluid mx-auto'
-        src={props.src}
-        alt={props.alt}
-        variant='top'
-      /> */}
 
       <Row className='list mx-auto justify-content-center'>
         <Col sm={3} className='mx-2'>
@@ -21,12 +15,9 @@ const BlogArticleListItem = props => {
             alt={props.blogContentSections[0].alt}
           />
         </Col>
-        <Col sm={3} className='mx-2'>
+        <Col sm={3} className='mx-2 m-2'>
           <Card.Text>
-            <h2>{props.title}</h2>
-          </Card.Text>
-          <Card.Text>
-            <h4>By: {props.author}</h4>
+            <h3>{props.title}</h3>
           </Card.Text>
           <Card.Text>
             <h4>Date: {props.date}</h4>
