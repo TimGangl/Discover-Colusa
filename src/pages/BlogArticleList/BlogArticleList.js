@@ -37,20 +37,29 @@ function BlogArticleList() {
                     pathname: './blog-article',
                     state: {
                       title: blog.blogTitle,
-                      author: blog.blogAuthor,
                       date: blog.blogDate,
                       preview: blog.blogPreview,
-                      content: blog.blogContent,
+                      content1: blog.blogContent1,
+                      content2: blog.blogContent2,
+                      content3: blog.blogContent3,
+                      content4: blog.blogContent4,
+                      content5: blog.blogContent5,
+                      content6: blog.blogContent6,
                       images: blog.images,
                     },
                   }}
                 >
                   <BlogArticleListItem
                     title={blog.blogTitle}
-                    author={blog.blogAuthor}
+
                     date={blog.blogDate}
                     preview={blog.blogPreview}
-                    content={blog.blogContent}
+                    content1={blog.blogContent1}
+                    content2={blog.blogContent2}
+                    content3={blog.blogContent3}
+                    content4={blog.blogContent4}
+                    content5={blog.blogContent5}
+                    content6={blog.blogContent6}
                     images={blog.images}
                     key={i}
                   />

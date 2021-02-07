@@ -21,12 +21,9 @@ const BlogArticleListItem = props => {
             alt={props.images[0].alt}
           />
         </Col>
-        <Col sm={3} className='mx-2'>
+        <Col sm={3} className='mx-2 m-2'>
           <Card.Text>
-            <h2>{props.title}</h2>
-          </Card.Text>
-          <Card.Text>
-            <h4>By: {props.author}</h4>
+            <h3>{props.title}</h3>
           </Card.Text>
           <Card.Text>
             <h4>Date: {props.date}</h4>

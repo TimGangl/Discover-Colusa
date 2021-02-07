@@ -3,14 +3,12 @@ import { useLocation } from 'react-router-dom';
 import Navigation from '../../components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
 import './BlogArticle.css';
-import photo from '../../images/blog.jpg';
-import singleBlogData from '../../data/BlogData';
-import { Container, Row, Col, Card, Jumbotron, Image } from 'react-bootstrap';
+import { Row, Col, Jumbotron, Image } from 'react-bootstrap';
 
 function BlogArticle(props) {
   const location = useLocation();
 
-  const { title, author, date, preview, content, images } = location.state;
+  const { title, author, date, preview, content1, content2, content3, content4, content5, content6, images } = location.state;
 
   return (
     <>
@@ -23,14 +21,18 @@ function BlogArticle(props) {
       >
         <Row className='justify-content-center'>
           <Col sm={7}>
-            <h1 className='blog-header'>{title}</h1>
+            <h1 className='blog-header p-2'>{title}</h1>
           </Col>
         </Row>
-        <Row className='justify-content-center' style={{ height: '100vh' }}>
+        <Row className='justify-content-center p-2'>
           <Col d-flex md={4} className='mt-3'>
-            <h2 className='info'>{author}</h2>
-            <h3 className='info'>{date}</h3>
-            <p className='info'>{content}</p>
+            <h5 className='info'>{date}</h5>
+            <p className='info'>{content1}</p>
+            <p className='info'>{content2}</p>
+            <p className='info'>{content3}</p>
+            <p className='info'>{content4}</p>
+            <p className='info'>{content5}</p>
+            <p className='info'>{content6}</p>
           </Col>
 
           <Col d-flex md={3} className='mt-5 '>
