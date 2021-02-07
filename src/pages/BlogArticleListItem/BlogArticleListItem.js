@@ -6,12 +6,6 @@ const BlogArticleListItem = props => {
   console.log(props);
   return (
     <Card border='white' className='py-2'>
-      {/* <Card.Img
-        className='img-fluid mx-auto'
-        src={props.src}
-        alt={props.alt}
-        variant='top'
-      /> */}
 
       <Row className='list mx-auto justify-content-center'>
         <Col sm={3} className='mx-2'>
