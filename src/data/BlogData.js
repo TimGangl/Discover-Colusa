@@ -32,8 +32,9 @@ export const singleBlogData = [
 
     blogContent1:
       "For those Northern Californians looking for a day trip near-cation, Colusa is photo competitive sure to surprise and delight leaving visitors with both images and memories. Here’s the Top 5 locations to capture inevitable Instagram envy from friends and family alike.",
+
     blogContent2:
-      "1) Grand Houses of 10th Street: These grand dames of a Victorian past exude a history of posh gossip and whisper of wealth from a bygone era. Boasting many bedrooms, sky- soaring roofs, rounded turrets, Victorian gingerbread, wrap - around porches - these grand houses are nothing short of special.",
+      "1) Grand Houses of 10th Street: These grand dames of a Victorian past exude a history of posh gossip and whisper of wealth from a bygone era. Boasting many bedrooms, sky-soaring roofs, rounded turrets, Victorian gingerbread, wrap-around porches - these grand houses are nothing short of special.",
 
     blogContent3:
       "2) Levee Park: This long, thin park borders the roaring Sacramento River, a boating and fishing mecca.Viewers can visit the park any day of the week walking the curved pathway that follows the path of the river stretching from the City’s 10th street down to it’s Bridge Street. Families with picnics, birthday bar - b - ques and more are all welcome at Levee Park.",

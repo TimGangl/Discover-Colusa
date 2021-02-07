@@ -16,7 +16,6 @@ function BlogArticle(props) {
       <Jumbotron
         d-flex
         fluid
-        // style={{ height: '92vh' }}
         className='bg-transparent justify-content-center'
       >
         <Row className='justify-content-center'>
@@ -46,38 +45,10 @@ function BlogArticle(props) {
                 />
               );
             })}
-            {/* <img className='business-img img-fluid justify-content-center' src={src} alt={alt}></img> */}
           </Col>
         </Row>
       </Jumbotron>
       <Footer />
-      {/* <Navigation />
-      <Card>
-
-        <Card.Img
-          className='mx-auto'
-          src={src}
-          alt={alt}
-          variant='top'
-        />
-
-        <Card.Body>
-          <Card.Text>
-            <h2>{title}</h2>
-          </Card.Text>
-          <Card.Text>
-            <h4>By: {author}</h4>
-          </Card.Text>
-          <Card.Text>
-            <h4>Date: {date}</h4>
-          </Card.Text>
-
-          <h5 className='w-100'>
-            {content}
-          </h5>
-        </Card.Body>
-      </Card>
-      <Footer /> */}
     </>
   );
 }
