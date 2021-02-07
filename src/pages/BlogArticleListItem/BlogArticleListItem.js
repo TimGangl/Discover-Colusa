@@ -3,7 +3,7 @@ import { Row, Col, Image, Card } from 'react-bootstrap';
 import './BlogArticleListItem.css';
 
 const BlogArticleListItem = props => {
-  console.log(props);
+  console.log(props.blogContentSections[0]);
   return (
     <Card border='white' className='py-2'>
 
@@ -11,8 +11,8 @@ const BlogArticleListItem = props => {
         <Col sm={3} className='mx-2'>
           <Image
             className='blog-img img-fluid mx-auto'
-            src={props.images[0].src}
-            alt={props.images[0].alt}
+            src={props.blogContentSections[0].src}
+            alt={props.blogContentSections[0].alt}
           />
         </Col>
         <Col sm={3} className='mx-2 m-2'>
