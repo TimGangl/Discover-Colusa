@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Card } from 'react-bootstrap';
+import { Row, Col, Image, Card } from 'react-bootstrap';
 import './BlogArticleListItem.css';
 
 const BlogArticleListItem = props => {

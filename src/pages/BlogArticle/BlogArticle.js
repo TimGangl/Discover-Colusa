@@ -8,7 +8,7 @@ import { Row, Col, Jumbotron, Image } from 'react-bootstrap';
 function BlogArticle(props) {
   const location = useLocation();
 
-  const { title, author, date, preview, content1, content2, content3, content4, content5, content6, images } = location.state;
+  const { title, date, content1, content2, content3, content4, content5, content6, images } = location.state;
 
   return (
     <>
