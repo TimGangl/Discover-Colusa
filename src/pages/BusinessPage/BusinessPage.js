@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Navigation from '../../components/Navigation/Navigation';
 import Footer from '../../components/Footer/Footer';
 import '../BusinessPage/BusinessPage.css';
-import { Row, Container, Col, Jumbotron } from 'react-bootstrap';
+import { Row, Col, Jumbotron } from 'react-bootstrap';
 
 const BusinessPage = props => {
   const location = useLocation();
