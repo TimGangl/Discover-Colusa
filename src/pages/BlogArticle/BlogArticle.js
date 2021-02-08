@@ -8,7 +8,7 @@ import { Row, Container, Col, Image } from 'react-bootstrap';
 function BlogArticle(props) {
   const location = useLocation();
 
-  const { title, blogContentSections, date, preview } = location.state;
+  const { title, blogContentSections, date } = location.state;
 
   return (
     <>
