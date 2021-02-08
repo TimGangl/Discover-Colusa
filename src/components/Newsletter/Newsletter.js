@@ -39,8 +39,7 @@ function Newsletter() {
               button: "Subscribe!"
             }
           }
-          // Add a personalized class
-          className='email-form'
+        // Add a personalized class
         />
 
 
