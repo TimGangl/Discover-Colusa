@@ -15,7 +15,7 @@ function BlogArticle(props) {
       <Navigation />
       <Row className='justify-content-center'>
         <Col sm={7}>
-          <h1 className='blog-header'>{title}</h1>
+          <h1 className=' mt-5 blog-header'>{title}</h1>
         </Col>
       </Row>
 
@@ -26,7 +26,8 @@ function BlogArticle(props) {
       </Row>
 
       <Row>
-        <Col d-flex md={12} className='mt-5 '>
+        <Col></Col>
+        <Col d-flex md={8} className='mt-5 '>
           {blogContentSections.map((blogSection, i) => {
             const { text, src, alt } = blogSection;
 
@@ -37,11 +38,11 @@ function BlogArticle(props) {
                 style={{ width: '100%' }}
               >
                 <Row>
-                  <Col md={7} className='justify-content-center text-wrap'>
+                  <Col md={8} className='justify-content-center text-wrap'>
                     <p className='blogSectionText'>{text}</p>
                   </Col>
                   <Col md={3} className='justify-content-center'>
-                    <Image className='blogSectionImage' src={src} alt={alt} />
+                    <Image style={{ maxHeight: '100%' }} className='blogSectionImage' src={src} alt={alt} />
                   </Col>
                 </Row>
               </Container>
@@ -58,27 +59,8 @@ function BlogArticle(props) {
           })}
           {/* <img className='business-img img-fluid justify-content-center' src={src} alt={alt}></img> */}
         </Col>
+        <Col></Col>
       </Row>
-
-      <Footer />
-      <Navigation />
-      {/* <Card>
-        <Card.Img className='mx-auto' src={src} alt={alt} variant='top' />
-
-        <Card.Body>
-          <Card.Text>
-            <h2>{title}</h2>
-          </Card.Text>
-          <Card.Text>
-            <h4>By: {author}</h4>
-          </Card.Text>
-          <Card.Text>
-            <h4>Date: {date}</h4>
-          </Card.Text>
-
-          <h5 className='w-100'>{content}</h5>
-        </Card.Body>
-      </Card> */}
       <Footer />
     </>
   );

@@ -5,7 +5,7 @@ function Newsletter() {
   return (
     <>
       <div class="row justify-content-center">
-        <h5 className="subscribe">Subscribe to our Newsletter!</h5>
+        <h3 className="subscribe">Subscribe to our Newsletter!</h3>
       </div>
 
       <div className="row justify-content-center">

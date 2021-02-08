@@ -4,10 +4,15 @@
 }
 
 .text-left {
-  font-family: 'Daniel', cursive;
+  font-family: "Daniel", cursive;
   color: #57291a !important;
 }
 
 .blogSectionImage {
   max-width: 20vw;
+}
+
+.blogSectionText {
+  margin: 2%;
+  font-size: 1.4vw;
 }
