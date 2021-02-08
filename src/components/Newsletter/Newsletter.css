@@ -1,3 +1,23 @@
 .subscribe {
+  font-family: "Daniel", cursive;
   color: #57291a;
+}
+
+input {
+  justify-content: center;
+  width: 100%;
+  background-color: antiquewhite;
+  text-decoration: white;
+  border-radius: 5px !important;
+  margin: 3%;
+  box-shadow: 0px 1px black;
+}
+
+.email-form button {
+  margin: 3%;
+  border-radius: 5px !important;
+  padding: 1%;
+  color: white;
+  /* justify-content: center; */
+  background-image: linear-gradient(to top right, #732443, #2f7f7c) !important;
 }

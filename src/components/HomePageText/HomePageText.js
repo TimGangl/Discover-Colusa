@@ -9,7 +9,7 @@ const HomePageText = () => {
         <div className="col-md-2 col-xsm-0"></div>
         <div className="col-md-5 col-xsm-12">
 
-          <h4 className='info text-center mt-5 mb-5'>
+          <h5 className='info text-center mt-5 mb-5'>
             <strong>
               <i>Discover Colusa: </i>
             </strong>
@@ -19,18 +19,18 @@ const HomePageText = () => {
         growing arts and music scene, beloved
         'street dances', and unique river access, Colusa is home to a collection of extraordinary
         events and activities.
-      </h4>
-          <h4 className='info text-center mt-5 mb-5'>
+      </h5>
+          <h5 className='info text-center mt-5 mb-5'>
             Fourth of July fireworks exploding over the river, duck hunting season
             opened with Colusa Duck Days festival, Christmastime in Colusa marking
         the Holidays...<br></br> Colusa is a destination worthy of discovery.
-      </h4>
-          <h4 className='info text-center mt-5 mb-5'>
+      </h5>
+          <h5 className='info text-center mt-5 mb-5'>
             Visitors have river access through the Colusa Boat Launch and other
             points along Main Street. A short hop off of I-5, Colusa is the nexus of
             Hwy 20 and 45. Guests will easily find hotel accommodations, B&B, and
         AirBnB options to extend their stay,<br></br> and fully discover Colusa.
-      </h4>
+      </h5>
         </div>
         <div className="col-md-3 col-xsm-12 mt-5">
           <Newsletter />
