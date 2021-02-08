@@ -6,8 +6,8 @@ const HomePageText = () => {
   return (
     <>
       <div className="row">
-        <div className="col-2 col-xsm-0"></div>
-        <div className="col-8 col-xsm-12">
+        <div className="col-md-2 col-xsm-0"></div>
+        <div className="col-md-5 col-xsm-12">
 
           <h4 className='info text-center mt-5 mb-5'>
             <strong>
@@ -31,11 +31,11 @@ const HomePageText = () => {
             Hwy 20 and 45. Guests will easily find hotel accommodations, B&B, and
         AirBnB options to extend their stay,<br></br> and fully discover Colusa.
       </h4>
-
-          <Newsletter />
-
         </div>
-        <div className="col-2 col-xsm-0"></div>
+        <div className="col-md-3 col-xsm-12 mt-5">
+          <Newsletter />
+        </div>
+        <div className="col-md-2 col-xsm-0"></div>
       </div>
 
     </>
