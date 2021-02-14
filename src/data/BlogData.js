@@ -22,11 +22,11 @@ export const singleBlogData = [
       },
       {
         text:
-          "1) Grand Houses of 10th Street: These grand dames of a Victorian past exude a history of posh gossip and whisper of wealth from a bygone era. Boasting many bedrooms, sky-soaring roofs, rounded turrets, Victorian gingerbread, wrap-around porches - these grand houses are nothing short of special.",
+          "1) Grand Houses of 10th Street: These grand dames of a Victorian past exude a history of posh gossip and whisper of wealth from a bygone era. Boasting many bedrooms, sky-soaring roofs, rounded turrets, Victorian gingerbread, wrap-around porches-these grand houses are nothing short of special.",
       },
       {
         text:
-          "2) Levee Park: This long, thin park borders the roaring Sacramento River, a boating and fishing mecca.Viewers can visit the park any day of the week walking the curved pathway that follows the path of the river stretching from the City’s 10th street down to it’s Bridge Street. Families with picnics, birthday bar - b - ques and more are all welcome at Levee Park.",
+          "2) Levee Park: This long, thin park borders the roaring Sacramento River, a boating and fishing mecca. Viewers can visit the park any day of the week walking the curved pathway that follows the path of the river stretching from the City’s 10th street down to it’s Bridge Street. Families with picnics, birthday bar-b-ques and more are all welcome at Levee Park.",
 
         src: LeveeParkRiver,
         alt: 'Image of the Levee Park River',
@@ -54,10 +54,10 @@ export const singleBlogData = [
     blogTitle: 'How to Start a Business in Colusa in 3 Easy Steps',
     blogDate: 'January 2021',
     blogPreview:
-      'Starting a business in Colusa is as easy as one two three. Just follow these three easy steps!',
+      'Starting a business in Colusa is as easy as one, two, three. Just follow these three easy steps!',
     blogContentSections: [
       {
-        text: 'Starting a business in Colusa is as easy as one two three. Just follow these three easy steps!',
+        text: 'Starting a business in Colusa is as easy as one, two, three. Just follow these three easy steps, and you will be on your way to starting your very own business in the City of Colusa!',
 
         src: KellersThumb,
         alt: 'Street in Colusa',

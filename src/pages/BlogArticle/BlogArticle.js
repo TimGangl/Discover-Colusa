@@ -14,20 +14,20 @@ function BlogArticle(props) {
     <>
       <Navigation />
       <Row className='justify-content-center'>
-        <Col sm={7}>
-          <h1 className=' mt-5 blog-header'>{title}</h1>
+        <Col sm={7} xs={10}>
+          <h1 className=' mt-5 ml-3 blog-header'>{title}</h1>
         </Col>
       </Row>
 
       <Row className='justify-content-center'>
-        <Col d-flex md={4} className='mt-3'>
+        <Col d-flex md={3} xs={10} className='mt-3 ml-5'>
           <h3 className='info'>{date}</h3>
         </Col>
       </Row>
 
       <Row>
         <Col></Col>
-        <Col d-flex md={8} className='mt-5 '>
+        <Col d-flex md={8} xs={10} className='mt-5 '>
           {blogContentSections.map((blogSection, i) => {
             const { text, src, alt } = blogSection;
 
@@ -37,12 +37,12 @@ function BlogArticle(props) {
                 fluid
                 style={{ width: '100%' }}
               >
-                <Row>
-                  <Col md={8} className='justify-content-center text-wrap'>
+                <Row className="justify-content-center">
+                  <Col md={8} sm={6} xs={12} className='justify-content-center text-wrap'>
                     <p className='blogSectionText'>{text}</p>
                   </Col>
-                  <Col md={3} className='justify-content-center'>
-                    <Image style={{ maxHeight: '100%' }} className='blogSectionImage' src={src} alt={alt} />
+                  <Col md={4} sm={6} xs={12} className='justify-content-center'>
+                    <Image style={{ maxHeight: '100%' }} className='blogSectionImage img-fluid mt-4' src={src} alt={alt} />
                   </Col>
                 </Row>
               </Container>

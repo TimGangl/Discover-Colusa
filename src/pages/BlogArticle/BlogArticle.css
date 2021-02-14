@@ -9,10 +9,11 @@
 }
 
 .blogSectionImage {
-  max-width: 20vw;
+  border-radius: 2%;
+  box-shadow: 1px 1px 1px 0px black;
 }
 
 .blogSectionText {
   margin: 2%;
-  font-size: 1.4vw;
+  font-size: 1.8vw;
 }
