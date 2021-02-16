@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Events from './pages/Events/Events';
@@ -8,11 +8,29 @@ import BlogArticleList from './pages/BlogArticleList/BlogArticleList';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Press from './pages/Press/Press';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import ReactGA from 'react-ga';
+import { createBrowserHistory } from 'history';
+
 
 function App() {
+  const history = createBrowserHistory();
+  history.listen(location => {
+    ReactGA.initialize('G-VQ6KPJEW4Y')
+    ReactGA.set({
+      page: location.pathname
+    })
+    ReactGA.pageview(location.pathname)
+  })
+  useEffect(() => {
+    ReactGA.initialize('G-VQ6KPJEW4Y');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  });
+
   return (
     <>
-      <Router>
+      <Router
+        history={history}
+      >
         <ScrollToTop />
         <Switch>
           <Route exact path={['/']} component={Home}>
