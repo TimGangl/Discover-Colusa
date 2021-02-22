@@ -1,23 +1,54 @@
-.rest-name{
+.event-heading1 {
   color: #57291a !important;
-  font-family: 'Daniel', cursive;
-  font-size: 2.2vw;
+  font-family: "Daniel", cursive;
 }
 
-.duck-text{
-  
+.event-heading2 {
   color: #57291a !important;
-  font-size: 1.1vw;
+  font-family: "Daniel", cursive;
+}
+
+.event-pic-1 {
+  margin-top: 8%;
+  border: 2%;
+  box-shadow: 0px 1px 0px 1.1px black;
+  border-radius: 2%;
+}
+
+.event-pic-2 {
+  margin-top: 8%;
+  box-shadow: 0px 1px 0px 1.1px black;
+  border-radius: 2%;
+}
+
+.event-pic-3 {
+  margin-top: 8%;
+  box-shadow: 0px 1px 0px 1.1px black;
+  border-radius: 2%;
+}
+
+.event-text {
+  text-align: center;
+  margin-top: 2%;
+  /* margin: 10px; */
+  color: #57291a !important;
+  font-size: 1.6vw;
+  line-height: 50px;
   text-decoration: none !important;
-
 }
 
-.duck-container{
-  margin-top: 3.5%;
+.event-text-2 {
+  text-align: center;
+  margin-top: 5%;
+  /* margin: 10px; */
+  color: #57291a !important;
+  font-size: 1.6vw;
+  line-height: 50px;
+  text-decoration: none !important;
 }
 
-@media screen and (max-width: 700px){
-.main{
-line-height: 10px;
-}
+@media screen and (max-width: 700px) {
+  .main {
+    line-height: 10px;
+  }
 }
