@@ -10,6 +10,7 @@ import '../Events/Events.css';
 
 
 
+
 function Events() {
   return (
     <>
@@ -26,7 +27,7 @@ function Events() {
         </div>
         <div className="col-lg-4 col-sm-12 main event-text"><span className="event-text">Colusa is central to some of the most beautiful almond country in Northern California. Journey here to see the blossoms in full bloom before they disappear! Please click on the map for downloadable copy of directions, and don't forget to eat at one of our fantastic restaurants or shop in a great Colusa store while you're here!</span></div>
         <div className="col-lg-3 col-sm-12 text-center">
-          <a href="/../public/Colusa Almond Blossom Map.png" download><img className="img-fluid event-pic-2 justify-content-center" src={photo3} alt="map of almond trail">
+          <a href={process.env.PUBLIC_URL + '/Colusa Almond Blossom Map.png'} download><img className="img-fluid event-pic-2 justify-content-center" src={photo3} alt="map of almond trail">
           </img></a>
         </div>
         <div className="col-1"></div>
@@ -38,7 +39,9 @@ function Events() {
         <div className="col-1"></div>
         <div className="col-lg-3 col-sm-12"><img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img></div>
         <div className="col-lg-4 col-sm-12 mt-5"><span className="event-text-2">Colusa is inviting Mini Cooper owners to a very special drive-through parade experience along the Sacramento River! March 27th at 11am, Colusa will be opening up it's levee park pathway just for this mini-parade. Parade location starts at 50 Tenth Street (also the location of the Colusa Sacramento River State Park). Please click on map for a downloadable copy of directions.</span></div>
-        <div className="col-lg-3 col-sm-12"><img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img></div>
+        <div className="col-lg-3 col-sm-12">
+          {/* <img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img> */}
+        </div>
         <div className="col-1"></div>
       </div>
 
