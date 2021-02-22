@@ -38,7 +38,7 @@ function Events() {
         <div className="col-12 text-center mt-5"><h1 className="event-heading2">March of the Minis</h1></div>
         <div className="col-1"></div>
         <div className="col-lg-3 col-sm-12"><img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img></div>
-        <div className="col-lg-4 col-sm-12 mt-5"><span className="event-text-2">Colusa is inviting Mini Cooper owners to a very special drive-through parade experience along the Sacramento River! March 27th at 11am, Colusa will be opening up it's levee park pathway just for this mini-parade. Parade location starts at 50 Tenth Street (also the location of the Colusa Sacramento River State Park). Please click on map for a downloadable copy of directions.</span></div>
+        <div className="event-text-2 col-lg-4 col-sm-12 mt-5"><span className="event-text-2 text-center">Colusa is inviting Mini Cooper owners to a very special drive-through parade experience along the Sacramento River! March 27th at 11am, Colusa will be opening up it's levee park pathway just for this mini-parade. Parade location starts at 50 Tenth Street (also the location of the Colusa Sacramento River State Park). Please click on map for a downloadable copy of directions.</span></div>
         <div className="col-lg-3 col-sm-12">
           {/* <img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img> */}
         </div>
