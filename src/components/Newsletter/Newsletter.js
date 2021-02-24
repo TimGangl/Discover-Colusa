@@ -12,7 +12,7 @@ function Newsletter() {
       <div className="row justify-content-center">
         <Mailchimp
 
-          className="email-form"
+          className="email-form m-3"
           action='https://discovercolusa.us7.list-manage.com/subscribe/post?u=b6a1bb00bfc6da7f443f94f35&amp;id=229af0f4e4'
           fields={[
             {
