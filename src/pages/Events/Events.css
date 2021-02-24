@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (min-width 320px) {
+@media screen and (max-width: 320px) {
   .event-text,
   .event-text-2 {
     margin: 2%;
