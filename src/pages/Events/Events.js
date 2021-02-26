@@ -6,6 +6,7 @@ import photo3 from '../../images/Colusa Almond Blossom Map.png';
 import photo from '../../images/colusa.jpg';
 import photo2 from '../../images/Insta Almond Trail 1.png';
 import photo4 from '../../images/Insta Minis.png';
+import photo5 from '../../images/levee-park-mini.png';
 import '../Events/Events.css';
 
 
@@ -40,7 +41,7 @@ function Events() {
         <div className="col-lg-3 col-sm-12m-2"><img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img></div>
         <div className="event-text-2 col-lg-4 col-sm-12 mt-5"><span className="event-text-2 text-center">Colusa is inviting Mini Cooper owners to a very special drive-through parade experience along the Sacramento River! March 27th at 11am, Colusa will be opening up it's levee park pathway just for this mini-parade. Parade location starts at 50 Tenth Street (also the location of the Colusa Sacramento River State Park). Please click on map for a downloadable copy of directions.</span></div>
         <div className="col-lg-3 col-sm-12">
-          {/* <img className="img-fluid event-pic-3" alt="march of the minis" src={photo4}></img> */}
+          <a href={process.env.PUBLIC_URL + '/levee-park-mini.png'} download><img className="img-fluid event-pic-3" alt="march of the minis" src={photo5}></img></a>
         </div>
         <div className="col-1"></div>
       </div>
