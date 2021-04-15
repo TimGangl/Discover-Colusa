@@ -20,13 +20,13 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/history' disabled>
+            <Link className='link' to='/history'>
               History
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/art' disabled>
-              Art
+            <Link className='link' to='/visit'>
+              Visit
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
@@ -35,7 +35,7 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/river' disabled>
+            <Link className='link' to='/river'>
               River
           </Link>
           </Nav.Link>
@@ -45,12 +45,12 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/press' disabled>
+            <Link className='link' to='/press'>
               Press
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/Maps' disabled>
+            <Link className='link' to='/Maps'>
               Maps
           </Link>
           </Nav.Link>
