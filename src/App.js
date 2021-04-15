@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home/Home';
+import History from './pages/History/History';
+import Visit from './pages/Visit/Visit';
 import Events from './pages/Events/Events';
 import BusinessPage from './pages/BusinessPage/BusinessPage';
 import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction';
@@ -13,7 +15,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
 
-  
+
   return (
     <>
       <Router>
@@ -25,11 +27,11 @@ function App() {
           <Route exact path={['/business']} component={BusinessPage}>
             <BusinessPage />
           </Route>
-          <Route exact path={['/history']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/history']} component={History}>
+            <History />
           </Route>
-          <Route exact path={['/art']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/visit']} component={Visit}>
+            <Visit />
           </Route>
           <Route exact path={['/events']} component={Events}>
             <Events />
