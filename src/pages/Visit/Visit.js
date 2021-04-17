@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Visit/Visit.css';
 import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 import '../../components/Navigation/Navigation.css';
