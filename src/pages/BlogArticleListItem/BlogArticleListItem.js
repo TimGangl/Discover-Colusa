@@ -10,7 +10,7 @@ const BlogArticleListItem = props => {
       <Row className='list mx-auto justify-content-center'>
         <Col sm={3} className='mx-2'>
           <Image
-            className='blog-img img-fluid mx-auto'
+            className='blog-img img-fluid mx-auto mt-1'
             src={props.blogContentSections[0].src}
             alt={props.blogContentSections[0].alt}
           />
