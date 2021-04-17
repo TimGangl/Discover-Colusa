@@ -11,6 +11,12 @@ import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Press from './pages/Press/Press';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+// import { faFacebook, faInstagram } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faFacebook, faInstagram)
+
 
 
 function App() {

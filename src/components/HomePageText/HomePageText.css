@@ -1,0 +1,26 @@
+.info{
+  font-size: 1.3rem !important;
+}
+
+.social-header{
+  font-family: "Daniel", cursive !important;
+  color: #57291a !important;
+}
+
+.icons{
+  color: #57291a !important;
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    margin: 2%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .info {
+    margin: 2%;
+    font-size: 0.8rem;
+  }
+}
