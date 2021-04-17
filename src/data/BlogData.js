@@ -4,8 +4,24 @@ import ColusaAerial from '../images/BlogImages/ColusaAerial.png';
 import LeveeParkRiver from '../images/BlogImages/LeveeParkRiver.jpg';
 import KellersThumb from '../images/BlogImages/kellehers-thumb.png';
 import GrandHouse from '../images/BlogImages/Grand-House.jpg';
+import Beaches from '../images/BlogImages/colusa-beaches.png';
 
 export const singleBlogData = [
+//Fourth blog article
+{
+  blogTitle: 'Beaches in Colusa',
+  blogDate: 'April 2021',
+  blogPreview: "The Sacramento River isn't known for its beaches, but it certainly should be!",
+  blogContentSections: [
+    {
+      text:
+      "The Sacramento River isn’t well known for its beaches, but it certainly should be! The Colusa Sacramento River State Park is covered in the type of greenery otherwise found in a Peter Jackson movie… verdant and slightly jungle-y. But unknown to most who visit, the shade covered park hides the entrance to a short hike that opens onto a sand and gravel beach otherwise known only by locals. The destination doesn’t really have a name, and didn’t ever really need one. Hikers enjoy packing in a lunch, some cold beverages, and bringing a dog or two along. We recommend wearing close-toed shoes for the hike, but once you get to the river’s edge, strip down and jump in! The water is shallow as you tip toe into the river. And swimming is permitted and encouraged with the reminder: it is a river and has currents- so be aware. If you’re worried; take a life jacket before you take a dip.",
+
+      src:Beaches,
+      alt:"Colusa Beaches",
+    }
+  ] 
+},
   //Third blog article
   {
     blogTitle: 'Top 5 Instagram-Worthy Photos in Colusa',
