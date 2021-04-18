@@ -21,10 +21,13 @@ function River(){
         <div className="col-sm-8">
 <h1 className="river-header text-center mt-5">Sacramento River at Colusa</h1>
 <p className="river-text text-center">Here are just a few of things that you can find to do on or around the Sacramento River while visiting Colusa</p>
+</div>
+<div className="col-sm-2"></div>
+</div>
 
 <div className="row m-5">
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
     <Card.Img variant="top" src={photo2} />
   <Card.Body className="river-links">
@@ -37,7 +40,7 @@ function River(){
 </div>
 
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
   <Card.Img variant="top" src={photo3} />
   <Card.Body className="river-links">
@@ -50,7 +53,7 @@ function River(){
 </div>
 
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
   <Card.Img variant="top" src={photo4} />
   <Card.Body  className="river-links">
@@ -61,10 +64,6 @@ function River(){
 </Card>
 </a>
 </div>
-</div>
-
-</div>
-<div className="col-sm-2"></div>
 </div>
       <Footer />
 

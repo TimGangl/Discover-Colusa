@@ -21,10 +21,13 @@ function Visit(){
         <div className="col-sm-8">
 <h1 className="visit-header mt-5 text-center">Visit Beautiful Colusa!</h1>
 <p className="visit-text text-center">Plan your trip to Colusa! Colusa has great natural amenities and services. Find the best places to Shop, Dine, Play and Stay while you’re here!</p>
+</div>
+<div className="col-sm-2"></div>
+</div>
 
 <div className="row m-5">
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
     <Card.Img variant="top" src={photo2} />
   <Card.Body className="river-links">
@@ -37,7 +40,7 @@ function Visit(){
 </div>
 
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
   <Card.Img variant="top" src={photo3} />
   <Card.Body className="river-links">
@@ -50,7 +53,7 @@ function Visit(){
 </div>
 
 <div className="col-md-4 col-sm-12">
-<a href="https://www.google.com">
+<a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
   <Card.Img variant="top" src={photo4} />
   <Card.Body  className="river-links">
@@ -61,10 +64,6 @@ function Visit(){
 </Card>
 </a>
 </div>
-</div>
-
-</div>
-<div className="col-sm-2"></div>
 </div>
       <Footer />
     </>
