@@ -5,14 +5,15 @@ import History from './pages/History/History';
 import Visit from './pages/Visit/Visit';
 import Events from './pages/Events/Events';
 import BusinessPage from './pages/BusinessPage/BusinessPage';
-import UnderConstruction from './pages/404UnderConstruction/404PageUnderConstruction';
 import BlogArticleList from './pages/BlogArticleList/BlogArticleList';
 import BlogArticle from './pages/BlogArticle/BlogArticle';
 import Press from './pages/Press/Press';
+import Maps from './pages/Maps/Maps';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import River from './pages/River/River';
 // import { faFacebook, faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faFacebook, faInstagram)
@@ -42,8 +43,8 @@ function App() {
           <Route exact path={['/events']} component={Events}>
             <Events />
           </Route>
-          <Route exact path={['/river']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/river']} component={River}>
+            <River />
           </Route>
           <Route exact path={['/blog-articles']} component={BlogArticleList}>
             <BlogArticleList />
@@ -54,8 +55,8 @@ function App() {
           <Route exact path={['/press']} component={Press}>
             <Press />
           </Route>
-          <Route exact path={['/maps']} component={UnderConstruction}>
-            <UnderConstruction />
+          <Route exact path={['/maps']} component={Maps}>
+            <Maps />
           </Route>
         </Switch>
       </Router>

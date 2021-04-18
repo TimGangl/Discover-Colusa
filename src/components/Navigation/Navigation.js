@@ -50,7 +50,7 @@ function Navigation() {
           </Link>
           </Nav.Link>
           <Nav.Link className="link">
-            <Link className='link' to='/Maps'>
+            <Link className='link' to='/maps'>
               Maps
           </Link>
           </Nav.Link>
