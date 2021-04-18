@@ -8,7 +8,7 @@
 }
 
 .icons{
-  color: #57291a !important;
+  color: linear-gradient(to top right, #732443, #2f7f7c) !important;
 }
 
 @media screen and (max-width: 700px) {
