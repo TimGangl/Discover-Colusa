@@ -4,12 +4,21 @@
 }
 
 .history-text {
-
   margin-top: 2%;
   color: #57291a !important;
   font-size: 1.6rem;
   line-height: 40px;
   text-decoration: none !important;
+}
+
+
+
+.pawtin-pic,
+.sac-river-colusa
+{
+  box-shadow: 0px 1px 8px 1.1px black;
+  border-radius: 2%;
+  margin: 1%;
 }
 
 @media screen and (max-width: 700px) {
