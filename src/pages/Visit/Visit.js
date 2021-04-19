@@ -25,7 +25,7 @@ function Visit(){
 <div className="col-sm-2"></div>
 </div>
 
-<div className="row m-5">
+<div className="row m-3">
 <div className="col-md-4 col-sm-12">
 <a href="https://www.google.com" target="_blank" rel="noreferrer">
   <Card className="mb-5">
