@@ -23,7 +23,7 @@ function Events() {
 
         <img className="event-pic-1 img-fluid" src={photo2} alt="Bass Derby Flyer"></img>
         <br></br>
-<p className="events-text-2">Please click on map for downloadable map!</p>
+<p className="events-text-2">Please click below on map for downloadable version of map!</p>
         <a href={process.env.PUBLIC_URL + '/bass-derby-map.jpg'} download><img className="event-pic-2 img-fluid" src={photo3} alt="Bass Derby Map"></img></a>
       </div>
       <div className="col-sm-2"></div>

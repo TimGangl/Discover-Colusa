@@ -36,7 +36,7 @@ const HomePageText = () => {
         </div>
         <div className="col-md-4 col-xsm-12 mt-5">
           <Newsletter />
-          <div>
+          <div className="mb-3">
             <h2 className="social-header text-center mt-3">Follow us on Socials</h2>
             <div className="text-center">
            <a href="https://www.facebook.com/DiscoverColusaCA" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icons m-3" icon={["fab", "facebook"]} size="6x"/></a>
