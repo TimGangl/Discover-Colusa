@@ -3,8 +3,8 @@ import Footer from '../../components/Footer/Footer';
 import Navigation from '../../components/Navigation/Navigation';
 import '../../components/Navigation/Navigation.css';
 import photo from '../../images/colusa.jpg';
-import photo2 from '../../images/bass-derby-flyer.png';
-import photo3 from '../../images/bass-derby-map.jpg';
+import photo2 from '../../images/Outdoor Movie Insta 1.png';
+import photo3 from '../../images/Taco Insta 6.png';
 import '../Events/Events.css';
 
 function Events() {
@@ -15,16 +15,21 @@ function Events() {
       </div>
       <Navigation />
 
-      <h1 className="events-header text-center m-s mt-5">Colusa Striped Bass Derby</h1>
+      <h1 className="events-header text-center mt-5">Stars & Strikes!</h1>
       <div className="row">
       <div className="col-sm-2"></div>
-      <div className="col-sm-8">
-        <p className="events-text">Colusa is world famous as a mecca for Striped Bass fishing! Celebrated annually with a Striped Bass Derby – this year’s first prize is $10,000 with cash and prizes through 10th place.</p>
+      <div className="col-sm-8 text-center">
+        <p className="events-text"></p>
 
-        <img className="event-pic-1 img-fluid" src={photo2} alt="Bass Derby Flyer"></img>
+        <img className="event-pic-1 img-fluid" src={photo2} alt="Free outdoor movies"></img>
         <br></br>
-<p className="events-text-2">Please click below on map for downloadable version of map!</p>
-        <a href={process.env.PUBLIC_URL + '/bass-derby-map.jpg'} download><img className="event-pic-2 img-fluid" src={photo3} alt="Bass Derby Map"></img></a>
+<p className="events-text-2"></p>
+{/* Code for creating dowloadable link from picrure */}
+        {/* <a href={process.env.PUBLIC_URL + '/bass-derby-map.jpg'} download><img className="event-pic-2 img-fluid" src={photo3} alt="Bass Derby Map"></img></a> */}
+
+        <h1 className="events-header text-center mt-5">Colusa Taco Throwdown!</h1>
+
+        <a href="http://www.ColusaTaco.com" target="_blank" rel="noreferrer" ><img className="event-pic-2 img-fluid" src={photo3} alt="tacos in Colusa"></img></a>
       </div>
       <div className="col-sm-2"></div>
       </div>
