@@ -14,6 +14,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook, faInstagram} from '@fortawesome/free-brands-svg-icons'
 import River from './pages/River/River';
+import Watermelon from './pages/Watermelon/Watermelon';
 // import { faFacebook, faInstagram } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faFacebook, faInstagram)
@@ -42,6 +43,9 @@ function App() {
           </Route>
           <Route exact path={['/events']} component={Events}>
             <Events />
+          </Route>
+          <Route exact path={['/4th-july-watermelon-fest']} component={Watermelon}>
+            <Watermelon />
           </Route>
           <Route exact path={['/river']} component={River}>
             <River />
