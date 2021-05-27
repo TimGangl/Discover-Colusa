@@ -8,7 +8,7 @@ function Watermelon(){
   return(
     <>
     <div>
-      <img classNmae="img-fluid" src={photo} alt="colusa field"></img>
+      <img className="img-fluid" src={photo} alt="colusa field"></img>
     </div>
     <Navigation />
 
